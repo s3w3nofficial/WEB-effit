@@ -25,25 +25,44 @@
 
     .products {
         padding: 40px 0;
-    }
-
-    .products .heading {
-        font-size: 35px;
+        
+        .heading {
+            font-size: 35px;
+        }
+        
+        .content-card {
+            padding: 0;
+            margin-top: 0px;
+            margin-left: 0px;
+            
+            ul {
+                line-height: 25px;
+            }
+            
+            .col-md-3 {
+                text-align: center;
+                
+                img {
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+        }
+        
+        .products-list {
+            img {
+                padding-left: 50px;
+            }
+        }
+        
+        .product1, .product2, .product3 {
+            margin-top: 85px;
+        }
     }
     
-    .products .content-card {
-        margin-top: 0px;
-        margin-left: 0px;
-    }
-
-
-    .products .product1, .products .product2 {
-        margin-top: 85px;
-    }
-
     .advantages {
         text-align: center;
-        height: 550px;
+        height: 550px; 
     }
 
     .advantages .heading {
@@ -78,22 +97,77 @@
         margin-top: 50px;
         margin-left: 0
     }
+    
+    .support {
+        padding-top: 30px;
+        height: 460px;
+        
+        h1 {
+            font-size: 24px;
+        }
+        
+        p {
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+    }
 
     .bonus-services {
+        
         height: auto;
+        
+        img {
+            margin-top: 0px;
+        }
+        
+        .col-md-6 {
+            padding: 0;
+            
+            h1 {
+                text-align: center;
+                font-size: 40px;
+            }
+            
+            p {
+                padding-left: 40px;
+                padding-top: 15px;
+            }
+            
+            .bonus-services-list {
+                padding-left: 55px;
+                padding-bottom: 15px;
+            }
+            
+            button {
+                display: block;
+                margin: 0 auto;
+                margin-bottom: 20px;
+            }
+        }
     }
 
-    .bonus-services img {
-        margin-top: 0px;
-        max-width: 410px;
-    }
+    footer {
+        padding-top: 40px;
+        height: 350px;
+        
+        .col-md-3 {
+            
+            padding-bottom: 20px;
+            
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+            
+        }
+        
+        .usefull {
+            text-align: center;
+        }
 
-    .bonus-services .col-md-6 {
-        padding: 0;
-    }
-
-    footer .usefull {
-        text-align: center;
+        hr {
+            margin-top: 0;
+        }
     }
 
 }
