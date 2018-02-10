@@ -1,0 +1,32 @@
+.support {
+    padding-top: 150px;
+    height: 730px;
+    background: url(../assets/img/paralax_red.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    
+    h1 {
+        text-align: center;
+        color: #fff;
+        font-weight: 500;
+    }
+    
+    p {
+        padding-top: 55px;
+        text-align: center;
+        font-size: 18px;
+        color: #fff;
+        padding-bottom: 55px;
+    }
+    
+    .contact-button {
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+        padding-left: 56px;
+        padding-right: 56px;
+        height: 40px;
+        display: block;
+        margin: 0 auto;
+    }
+}

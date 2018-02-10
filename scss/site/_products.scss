@@ -1,0 +1,104 @@
+.products {
+    padding: 130px 0;
+    
+    .heading {
+        text-align: center;
+        font-weight: 500;
+        font-size: 56px;
+        color: #455a64;
+    }
+    
+    
+    .content-card {
+        padding: 35px 0px;
+        margin-top: 125px;
+        margin-left: 60px;
+        -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.25);
+        -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.25);
+        box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.25);
+        
+        .list-heading {
+            padding-left: 15px;
+            font-weight: bold;
+            text-align: left !important;
+            font-size: 22px;
+            color: #455a64;
+        }
+        
+        ul {
+            padding-left: 35px;
+            margin-top: 20px;
+            font-size: 18px;
+            
+            li {
+                text-align: left;
+                color: #455a64;
+                list-style: none;
+            }
+            
+            li:before {    
+                font-family: 'FontAwesome';
+                content: "\f058"; 
+                margin:0 5px 0 -15px;
+                color: #f00;
+            }
+            
+            .verified-user {
+                display: block;
+                margin: 0 auto;
+            }
+            
+            p {
+                padding-top: 10px;
+                color: #455a64;
+                line-height: 30px;
+                text-align: center;
+                font-size: 22px;
+            }
+        }
+    }
+    
+    .products-list {
+        padding-top: 85px;
+        text-align: center;
+        
+        img {
+            display: block;
+            margin: 0 auto;
+            padding-left: 80px;
+        }
+        
+        .product-info {
+            margin-top: 80px;
+            font-family: "Roboto";
+            color: #455a64;
+            
+            .effit {
+                font-size: 14px;
+                margin-bottom: 0px;
+                text-transform: uppercase;
+            }
+            
+            .heading {
+                font-size: 22px;
+                font-weight: bold;
+                color: #455a64;
+            }
+            
+            .price-text {
+                font-weight: 800;
+                color: #455a64;
+                font-size: 14px;
+                margin-bottom: 0;
+            }
+            
+            .product-price {
+                font-size: 22px;
+            }
+            
+            .with-dph {
+                font-size: 14px;
+            }
+        }
+    }
+}

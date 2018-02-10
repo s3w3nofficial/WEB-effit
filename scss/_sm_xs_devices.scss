@@ -1,0 +1,99 @@
+@media (max-width: 768px) {
+
+    .hero {
+        height: 625px;
+        padding-top: 50px;
+    }
+
+    .hero h1 {
+        font-size: 40px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .hero .mdl-button--red {
+        width: 240px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .hero .button-scroll {
+        top: 600px;
+    }
+
+    .products {
+        padding: 40px 0;
+    }
+
+    .products .heading {
+        font-size: 35px;
+    }
+    
+    .products .content-card {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+
+    .products .product1, .products .product2 {
+        margin-top: 85px;
+    }
+
+    .advantages {
+        text-align: center;
+        height: 550px;
+    }
+
+    .advantages .heading {
+        padding-top: 20px;
+        font-size: 40px;
+    }
+
+    .advantages-list {
+        padding-bottom: 100px;
+        font-size: 22px;
+    }
+
+    .spectrum {
+        padding-top: 15px;
+        height: 620px;
+    }
+
+    .spectrum h1 {
+        font-size: 40px;
+    }
+
+    .spectrum .row {
+        padding-left: 60px;
+    }
+
+    .collapse-card-text {
+        padding-left: 30px;
+    }
+
+    .content-card {
+        padding: 0;
+        margin-top: 50px;
+        margin-left: 0
+    }
+
+    .bonus-services {
+        height: auto;
+    }
+
+    .bonus-services img {
+        margin-top: 0px;
+        max-width: 410px;
+    }
+
+    .bonus-services .col-md-6 {
+        padding: 0;
+    }
+
+    footer .usefull {
+        text-align: center;
+    }
+
+}

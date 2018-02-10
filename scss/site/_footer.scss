@@ -1,0 +1,36 @@
+footer {
+    height: 310px;
+    background-color: #eeeeee;
+    padding-top: 85px;
+}
+
+footer .usefull {
+    text-align: right;
+}
+
+footer .usefull .heading {
+    font-size: 14px;
+    color: #90a4ae;
+    font-weight: 600;
+}
+
+footer .usefull ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .usefull a {
+    color: #90a4ae;
+    padding-right: 0px;
+}
+
+footer hr {
+    margin-top: 50px;
+}
+
+footer .copy {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #90a4ae;
+    text-align: center;
+}

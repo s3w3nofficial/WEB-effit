@@ -1,0 +1,30 @@
+.mdl-button--red
+{
+    background-color:#f44336 !important;
+    color: white;
+}
+
+.mdl-button--red > .fa-shopping-cart, .mdl-button--green > .fa-shopping-cart, .mdl-button--blue > .fa-shopping-cart, .mdl-button--purple > .fa-shopping-cart {
+    padding-right: 10px;
+}
+
+.mdl-button--green
+{
+    background-color:#4caf50 !important;
+}
+.mdl-button--blue
+{
+    background-color:#4554a5 !important;
+}
+
+.mdl-button--purple
+{
+    background-color:#4b2d87 !important;
+}
+
+.mdl-button--green, .mdl-button--blue, .mdl-button--purple {
+    color: white;
+    font-size: 22px;
+    width: 200px;
+    height: 60px;
+}

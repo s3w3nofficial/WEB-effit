@@ -1,0 +1,26 @@
+.advantages {
+    background: url(../assets/img/fungovani_foto.png);
+    background-size: cover;
+        
+    .heading {
+        padding-top: 145px;
+        font-weight: 500;
+        color: #fff;
+    }
+        
+    .advantages-list {
+        padding-bottom: 400px;
+        font-family: "Roboto";
+        font-size: 22px;
+        color: #949493;
+        list-style: none;
+        padding-left: 0px;
+        line-height: 35px;
+        
+        .highlight {
+            color: #fff;
+            font-family: "Roboto Bold";
+        }
+    }
+        
+}
