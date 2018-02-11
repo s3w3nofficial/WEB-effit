@@ -1,129 +1,144 @@
 .spectrum {
-    padding-top: 120px;
-    height: 750px;
-    color: #455a64;
-    font-weight: 600;
     
     h1 {
         text-align: center;
-        font-weight: 500;
+        padding-top: 140px;
+        font-family: $heading-font;
+        color: $text-field;
     }
 
-    .circles {
-        padding-top: 90px;
-        
-        .main-circle {
-            position: relative;
-            display: block;
-            margin: 0 auto;
-            padding-top: 35px;
-            border-radius: 50%;
-            text-align: center;
-            word-break: break-all;
-            height: 215px;
-            width: 215px;
-            color: #fff;
-            background: #009688;
+    .row {
+        padding-top: 50px;
+
+        .circles {
+            padding-top: 90px;
             
-            .heading {
-                line-height: 80px;
+            .main-circle {
+                position: relative;
+                display: block;
+                margin: 0 auto;
+                padding-top: 35px;
+                border-radius: 50%;
+                text-align: center;
+                word-break: break-all;
+                height: 215px;
+                width: 215px;
+                color: $white;
+                background: $turquoise;
+                font-family: $text-font;
+                
+                .heading {
+                    line-height: 80px;
+                    color: $white;
+                    font-family: $heading-font;
+                }
+            }
+    
+            .circle {
+                justify-content: center;
+                align-items: center;
+                border-radius: 100%;
+                text-align: center;
+                font-size: 15px;
+                padding: 15px;
+                display: flex;
+                height: 75px;
+                width: 75px;
+                color: $turquoise-half-transparent;
+                border: 1px solid $turquoise-half-transparent;
+            }
+            
+            .circle:hover {
+                color: $turquoise;
+                border: 1px solid $turquoise;
+            }
+            
+            .active {
+                color: $turquoise;
+                border: 1px solid $turquoise;
+            }
+            
+            .c1 {
+                position: absolute;
+                top: 10px;
+                left: 250px;
+            }
+            
+            .c1:before {
+                font-family: $material-font;
+                content: "store_mall_directory";
+                font-size: 36px;
+            }
+            
+            .c2 {
+                position: absolute;
+                top: 120px;
+                left: 100px;
+            }
+            
+            .c2:before {
+                font-family: $material-font;
+                content: "place";
+                font-size: 36px;
+            }
+            
+            .c3 {
+                position: absolute;
+                top: 275px;
+                left: 140px;
+            }
+            
+            .c3:before {
+                font-family: $material-font;
+                content: "school";
+                font-size: 36px;
+            }
+            
+            .c4 {
+                position: absolute;
+                top: 120px;
+                left: 395px;
+            }
+            
+            .c4:before {
+                font-family: $material-font;
+                content: "local_library";
+                font-size: 36px;
+            }
+            
+            .c5 {
+                position: absolute;
+                top: 275px;
+                left: 355px;
+            }
+            
+            .c5:before {
+                font-family: $material-font;
+                content: "local_hospital";
+                font-size: 36px;
             }
         }
-
-        .circle {
-            justify-content: center;
-            align-items: center;
-            border-radius: 100%;
-            text-align: center;
-            font-size: 15px;
-            padding: 15px;
-            display: flex;
-            height: 75px;
-            width: 75px;
-            color: rgba(0, 150, 136, 0.5);
-            border: 1px solid rgba(0, 150, 136, 0.5);
+        
+        .heading {
+            font-size: 22px;
+            font-weight: 600;
+            font-family: $heading-font !important;
+            color: $text-field;
         }
         
-        .circle:hover {
-            color: rgba(0, 150, 136, 1);
-            border: 1px solid rgba(0, 150, 136, 1);
+        ul {
+            font-family: $text-font;
+            padding-top: 30px;
+            padding-left: 0;
+            margin-left: 15px;
+            padding-bottom: 30px;
+            color: $text-field-light;
         }
         
-        .active {
-            color: rgba(0, 150, 136, 1);
-            border: 1px solid rgba(0, 150, 136, 1);
+        button {
+            text-transform: uppercase;
+            font-family: $text-font;
+            margin-bottom: 140px;
         }
-        
-        .c1 {
-            position: absolute;
-            top: 10px;
-            left: 250px;
-        }
-        
-        .c1:before {
-            font-family: 'Material Icons';
-            content: "store_mall_directory";
-            font-size: 36px;
-        }
-        
-        .c2 {
-            position: absolute;
-            top: 120px;
-            left: 100px;
-        }
-        
-        .c2:before {
-            font-family: 'Material Icons';
-            content: "place";
-            font-size: 36px;
-        }
-        
-        .c3 {
-            position: absolute;
-            top: 275px;
-            left: 140px;
-        }
-        
-        .c3:before {
-            font-family: 'Material Icons';
-            content: "school";
-            font-size: 36px;
-        }
-        
-        .c4 {
-            position: absolute;
-            top: 120px;
-            left: 395px;
-        }
-        
-        .c4:before {
-            font-family: 'Material Icons';
-            content: "local_library";
-            font-size: 36px;
-        }
-        
-        .c5 {
-            position: absolute;
-            top: 275px;
-            left: 355px;
-        }
-        
-        .c5:before {
-            font-family: 'Material Icons';
-            content: "local_hospital";
-            font-size: 36px;
-        }
-    }
-    
-    .heading {
-        font-size: 22px;
-        font-weight: 600;
-    }
-    
-    ul {
-        padding-top: 30px;
-        padding-left: 0;
-        margin-left: 15px;
-        padding-bottom: 30px;
     }
 }

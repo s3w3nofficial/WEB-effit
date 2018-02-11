@@ -1,11 +1,25 @@
-@media (max-width: 992px) {
+@media (min-width: 763px) and (max-width: 992px) {
     
     nav .nav-item {
-        margin-top: 0px;
         margin-right: 0px;
     }
     
     .products {
+
+        .content-card {
+
+            .col-md-9 {
+                li {
+                    font-size: 16px;
+                }
+            }
+
+            .col-md-3 {
+                p {
+                    font-size: 16px;
+                }
+            }
+        }
     
         .products-list {
             
@@ -22,6 +36,11 @@
                     margin-right: 0;
                     padding-left: 0;
                     padding-right: 0;
+                    margin-top: 45px;
+
+                    button {
+                        width: 180px;
+                    }
                 }
             }
         }
@@ -32,10 +51,18 @@
         background-position-x: 65px;
 
         .heading {
-            padding-top: 70px;
+            padding-top: 40px;
         }
     }
     
+    .spectrum {
+
+        .content {
+            display: table;
+            margin: 0 auto;
+        }
+    }
+
     .support {
         
         .heading {
@@ -45,11 +72,6 @@
     
     .bonus-services img {
         margin-top: 116px;
-    }
-    
-    footer {
-        padding-top: 30px;
-        height: 230px;
     }
     
 }

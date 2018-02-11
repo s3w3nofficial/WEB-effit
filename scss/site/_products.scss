@@ -1,17 +1,19 @@
 .products {
-    padding: 130px 0;
+    padding-top: 140px;
+    font-family: $heading-font;
     
     .heading {
         text-align: center;
         font-weight: 500;
         font-size: 56px;
         color: #455a64;
+        margin-bottom: 100px;
     }
     
     
     .content-card {
         padding: 35px 0px;
-        margin-top: 125px;
+        height: 290px;
         margin-left: 60px;
         -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.25);
         -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.25);
@@ -22,44 +24,48 @@
             font-weight: bold;
             text-align: left !important;
             font-size: 22px;
-            color: #455a64;
+            color: $text-field;
         }
         
         ul {
+            font-family: $text-font;
             padding-left: 35px;
             margin-top: 20px;
             font-size: 18px;
             
             li {
                 text-align: left;
-                color: #455a64;
+                color: $text-field-light;
                 list-style: none;
+                line-height: 30px;
             }
             
             li:before {    
                 font-family: 'FontAwesome';
                 content: "\f058"; 
                 margin:0 5px 0 -15px;
-                color: #f00;
+                color: $red;
             }
             
-            .verified-user {
-                display: block;
-                margin: 0 auto;
-            }
-            
-            p {
-                padding-top: 10px;
-                color: #455a64;
-                line-height: 30px;
-                text-align: center;
-                font-size: 22px;
-            }
+        }
+
+        .verified-user {
+            display: block;
+            margin: 0 auto;
+        }
+
+        p {
+            padding-top: 10px;
+            color: $text-field-light;
+            line-height: 30px;
+            text-align: center;
+            font-size: 22px;
+            font-family: $text-font;
         }
     }
     
     .products-list {
-        padding-top: 85px;
+        padding-top: 80px;
         text-align: center;
         
         img {
@@ -69,20 +75,22 @@
         }
         
         .product-info {
-            margin-top: 80px;
+            margin-top: 50px;
             font-family: "Roboto";
-            color: #455a64;
+            color: $text-field-light;
             
             .effit {
                 font-size: 14px;
                 margin-bottom: 0px;
+                font-family: $heading-font;
                 text-transform: uppercase;
             }
             
             .heading {
                 font-size: 22px;
                 font-weight: bold;
-                color: #455a64;
+                color: $text-field;
+                margin-bottom: 10px;
             }
             
             .price-text {
@@ -90,14 +98,24 @@
                 color: #455a64;
                 font-size: 14px;
                 margin-bottom: 0;
+                font-family: $heading-font;
             }
             
             .product-price {
                 font-size: 22px;
+                margin-bottom: 50px;
             }
             
             .with-dph {
                 font-size: 14px;
+                font-family: $heading-font;
+            }
+            
+            button {
+                font-family: $heading-font;
+                height: 65px;
+                width: 250px;
+                margin-bottom: 140px;
             }
         }
     }

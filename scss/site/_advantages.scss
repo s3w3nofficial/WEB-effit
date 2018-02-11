@@ -3,23 +3,25 @@
     background-size: cover;
         
     .heading {
-        padding-top: 145px;
-        font-weight: 500;
-        color: #fff;
+        padding-top: 140px;
+        color: $white;
+        font-family: $heading-font;
     }
         
     .advantages-list {
-        padding-bottom: 400px;
+        padding-top: 50px;
+        padding-bottom: 200px;
         font-family: "Roboto";
         font-size: 22px;
-        color: #949493;
+        color: $grey;
         list-style: none;
         padding-left: 0px;
         line-height: 35px;
+        font-family: $text-font;
         
         .highlight {
-            color: #fff;
-            font-family: "Roboto Bold";
+            color: $white;
+            font-family: $heading-font;
         }
     }
         

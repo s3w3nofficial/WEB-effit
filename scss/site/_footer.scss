@@ -1,7 +1,6 @@
 footer {
-    height: 310px;
     background-color: #eeeeee;
-    padding-top: 85px;
+    padding-top: 80px;
 }
 
 footer .usefull {
@@ -10,27 +9,29 @@ footer .usefull {
 
 footer .usefull .heading {
     font-size: 14px;
-    color: #90a4ae;
-    font-weight: 600;
+    color: $text-field;
+    font-family: $heading-font;
 }
 
 footer .usefull ul {
     list-style: none;
+    font-family: $text-font;
     padding: 0;
 }
 
 footer .usefull a {
-    color: #90a4ae;
+    color: $text-field-light;
     padding-right: 0px;
 }
 
 footer hr {
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 footer .copy {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    color: #90a4ae;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: $text-field;
     text-align: center;
+    font-family: $text-font;
 }

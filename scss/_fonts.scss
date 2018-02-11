@@ -1,9 +1,17 @@
 @font-face {
-    font-family: 'Roboto-Bold';
-    src:  url('../assets/fonts/Roboto-Bold.ttf.woff') format('woff'),
-    url('../assets/fonts/Roboto-Bold.ttf.svg#Roboto-Bold') format('svg'),
-    url('../assets/fonts/Roboto-Bold.ttf.eot'),
-    url('../assets/fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'); 
-    font-weight: normal;
-    font-style: normal;
+    font-family:"Roboto-Bold";
+    src:url("../assets/fonts/DroidSans-Bold.eot?") format("eot"),
+    url("../assets/fonts/DroidSans-Bold.woff") format("woff"),
+    url("../assets/fonts/DroidSans-Bold.ttf") format("truetype"),
+    url("../assets/fonts/DroidSans-Bold.svg#Roboto-Bold") format("svg");
+    font-weight:normal;font-style:normal;
+}
+
+@font-face {
+    font-family:"Roboto-Regular";
+    src:url("../assets/fonts/Roboto-Regular.eot?") format("eot"),
+    url("../assets/fonts/Roboto-Regular.woff") format("woff"),
+    url("../assets/fonts/Roboto-Regular.ttf") format("truetype"),
+    url("../assets/fonts/Roboto-Regular.svg#Roboto-Regular") format("svg");
+    font-weight:normal;font-style:normal;
 }

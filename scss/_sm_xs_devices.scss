@@ -1,11 +1,16 @@
 @media (max-width: 768px) {
 
+    nav {
+        height: unset;
+    }
+
     .hero {
         height: 625px;
         padding-top: 50px;
     }
 
     .hero h1 {
+        padding-top: 30px;
         font-size: 36px;
     }
 
@@ -20,11 +25,11 @@
     }
     
     .hero .circles {
-        margin-top: 25px;
+        display: none;
     }
 
     .hero .button-scroll {
-        top: 600px;
+        top: 590px;
     }
 
     .products {
@@ -32,12 +37,14 @@
         
         .heading {
             font-size: 35px;
+            margin-bottom: 40px;
         }
         
         .content-card {
             padding: 0;
             margin-top: 0px;
             margin-left: 0px;
+            height: unset;
             
             ul {
                 line-height: 25px;
@@ -62,17 +69,25 @@
             
             .product-info {
                 margin-top: 40px;
+
+                button {
+                    margin-bottom: 40px;
+                }
             }
         }
         
-        .product1, .product2, .product3 {
-            margin-top: 85px;
+        .product1 {
+            margin-top: 45px;
+        }
+
+        .product2, .product3 {
+            margin-top: 0px;
         }
     }
     
     .advantages {
         text-align: center;
-        height: 550px; 
+        height: unset !important;
     }
 
     .advantages .heading {
@@ -81,7 +96,8 @@
     }
 
     .advantages-list {
-        padding-bottom: 100px;
+        padding-top: 25px !important;
+        padding-bottom: 30px !important;
         font-size: 19px;
     }
 
@@ -94,11 +110,13 @@
         }
         
         h1 {
+            padding-top: 30px;
             font-size: 40px;
         }
 
         .row {
             padding-left: 60px;
+            padding-top: 0px;
         }
     }
     
@@ -115,12 +133,17 @@
         margin-top: 50px;
         margin-left: 0
     }
+
+    .functions .mdl-button--red {
+        margin-bottom: 60px;
+    }
     
     .support {
         padding-top: 30px;
         height: 460px;
         
         h1 {
+            padding-top: 30px;
             font-size: 24px;
         }
         
@@ -132,8 +155,8 @@
 
     .bonus-services {
         
-        height: auto;
-        
+        margin-top: 30px;
+
         img {
             margin-top: 0px;
         }
@@ -166,7 +189,6 @@
 
     footer {
         padding-top: 40px;
-        height: 350px;
         
         .col-md-3 {
             
@@ -189,3 +211,4 @@
     }
 
 }
+
