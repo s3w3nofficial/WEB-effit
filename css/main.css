@@ -544,3 +544,30 @@ footer .copy {
       text-align: center; }
     footer hr {
       margin-top: 0; } }
+
+@media (max-width: 992px) {
+  nav .nav-item {
+    margin-top: 0px;
+    margin-right: 0px; }
+  .products .products-list .container {
+    padding: 0; }
+    .products .products-list .container img {
+      padding-left: 40px;
+      max-width: 240px; }
+    .products .products-list .container .product1, .products .products-list .container .product2, .products .products-list .container .product3 {
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 0;
+      padding-right: 0; }
+  .advantages {
+    height: 450px;
+    background-position-x: 65px; }
+    .advantages .heading {
+      padding-top: 70px; }
+  .support .heading {
+    padding-top: 65px; }
+  .bonus-services img {
+    margin-top: 116px; }
+  footer {
+    padding-top: 30px;
+    height: 230px; } }

@@ -1,0 +1,55 @@
+@media (max-width: 992px) {
+    
+    nav .nav-item {
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    
+    .products {
+    
+        .products-list {
+            
+            .container {
+                padding: 0;
+                
+                img {
+                    padding-left: 40px;
+                    max-width: 240px;
+                }
+                
+                .product1, .product2, .product3 {
+                    margin-left: 0;
+                    margin-right: 0;
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+    
+    .advantages {
+        height: 450px;
+        background-position-x: 65px;
+
+        .heading {
+            padding-top: 70px;
+        }
+    }
+    
+    .support {
+        
+        .heading {
+            padding-top: 65px;
+        }
+    }
+    
+    .bonus-services img {
+        margin-top: 116px;
+    }
+    
+    footer {
+        padding-top: 30px;
+        height: 230px;
+    }
+    
+}
