@@ -79,47 +79,48 @@ nav .nav-item .nav-link {
   font-family: "Roboto-Regular";
 }
 
-.gdrp {
+.gdpr {
   padding-top: 150px;
 }
 
-.gdrp h1 {
+.gdpr h1 {
   margin-top: 0px;
   color: #455a64;
   font-family: "Roboto-Bold";
   margin-bottom: 80px;
 }
 
-.gdrp .subheading {
+.gdpr .subheading {
   font-size: 24px;
   color: #455a64;
   font-family: "Roboto-Bold";
 }
 
-.gdrp .text {
+.gdpr .text {
   font-size: 18px;
   color: #90a4ae;
   font-family: "Roboto-Regular";
   margin-bottom: 80px;
 }
 
-.gdrp .note .text {
+.gdpr .note .text {
   padding-left: 20px;
   border-left: 1px solid gray;
   color: #009688;
+  font-family: "Roboto-Regular";
 }
 
-.gdrp .note .text span {
+.gdpr .note .text span {
   font-size: 24px;
   font-family: "Roboto-Regular";
 }
 
-.gdrp .note .text p {
+.gdpr .note .text p {
   font-size: 18px;
   font-family: "Roboto-Regular";
 }
 
-.gdrp .note .text button {
+.gdpr .note .text button {
   font-family: "Roboto-Regular";
   text-transform: uppercase;
   width: 237px;
@@ -127,55 +128,61 @@ nav .nav-item .nav-link {
   height: 45px;
 }
 
-.gdrp .contact-text {
-  margin-bottom: 100px;
-}
-
-.gdrp .contact-text .heading {
-  font-size: 18px;
-  color: #009688;
+.gdpr .subheading {
   font-family: "Roboto-Bold";
+  color: #455a64;
 }
 
-.gdrp .contact-text .row {
-  padding-top: 30px;
-  font-size: 14px;
+.gdpr .text1, .gdpr .text2, .gdpr .text3 {
   font-family: "Roboto-Regular";
   color: #90a4ae;
 }
 
-.gdrp .contact-text .row .fa {
+.gdpr .text3 {
+  padding-bottom: 40px;
+}
+
+.gdpr .row {
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.gdpr .row .heading {
+  padding-top: 40px;
+  color: #009688;
+  font-family: "Roboto-Regular";
   font-size: 18px;
-  padding-right: 20px;
+}
+
+.gdpr .row p {
+  color: #90a4ae;
+  font-family: "Roboto-Regular";
+  font-size: 14px;
+  padding-bottom: 40px;
 }
 
 @media (min-width: 763px) and (max-width: 992px) {
-  .gdrp .note button {
+  .gdpr .note button {
     width: 200px !important;
   }
 }
 
 @media (max-width: 768px) {
-  .gdrp {
+  .gdpr {
     padding-top: 60px;
   }
-  .gdrp h1 {
+  .gdpr h1 {
     text-align: center;
     font-size: 34px;
     margin-bottom: 30px;
   }
-  .gdrp .note {
+  .gdpr .note {
     height: 170px;
   }
-  .gdrp .note .text {
+  .gdpr .note .text {
     border-left: none;
     text-align: center;
-  }
-  .gdrp .text {
-    margin-bottom: 30px;
-  }
-  .gdrp .contact-text {
-    margin-bottom: 20px;
   }
 }
 
@@ -427,4 +434,4 @@ footer .copy {
     margin-top: 116px;
   }
 }
-/*# sourceMappingURL=gdrp.css.map */
+/*# sourceMappingURL=gdpr.css.map */
