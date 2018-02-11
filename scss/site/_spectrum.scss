@@ -8,6 +8,112 @@
         text-align: center;
         font-weight: 500;
     }
+
+    .circles {
+        padding-top: 90px;
+        
+        .main-circle {
+            position: relative;
+            display: block;
+            margin: 0 auto;
+            padding-top: 35px;
+            border-radius: 50%;
+            text-align: center;
+            word-break: break-all;
+            height: 215px;
+            width: 215px;
+            color: #fff;
+            background: #009688;
+            
+            .heading {
+                line-height: 80px;
+            }
+        }
+
+        .circle {
+            justify-content: center;
+            align-items: center;
+            border-radius: 100%;
+            text-align: center;
+            font-size: 15px;
+            padding: 15px;
+            display: flex;
+            height: 75px;
+            width: 75px;
+            color: rgba(0, 150, 136, 0.5);
+            border: 1px solid rgba(0, 150, 136, 0.5);
+        }
+        
+        .circle:hover {
+            color: rgba(0, 150, 136, 1);
+            border: 1px solid rgba(0, 150, 136, 1);
+        }
+        
+        .active {
+            color: rgba(0, 150, 136, 1);
+            border: 1px solid rgba(0, 150, 136, 1);
+        }
+        
+        .c1 {
+            position: absolute;
+            top: 10px;
+            left: 250px;
+        }
+        
+        .c1:before {
+            font-family: 'Material Icons';
+            content: "store_mall_directory";
+            font-size: 36px;
+        }
+        
+        .c2 {
+            position: absolute;
+            top: 120px;
+            left: 100px;
+        }
+        
+        .c2:before {
+            font-family: 'Material Icons';
+            content: "place";
+            font-size: 36px;
+        }
+        
+        .c3 {
+            position: absolute;
+            top: 275px;
+            left: 140px;
+        }
+        
+        .c3:before {
+            font-family: 'Material Icons';
+            content: "school";
+            font-size: 36px;
+        }
+        
+        .c4 {
+            position: absolute;
+            top: 120px;
+            left: 395px;
+        }
+        
+        .c4:before {
+            font-family: 'Material Icons';
+            content: "local_library";
+            font-size: 36px;
+        }
+        
+        .c5 {
+            position: absolute;
+            top: 275px;
+            left: 355px;
+        }
+        
+        .c5:before {
+            font-family: 'Material Icons';
+            content: "local_hospital";
+            font-size: 36px;
+        }
+    }
     
     .heading {
         font-size: 22px;

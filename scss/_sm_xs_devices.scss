@@ -88,14 +88,18 @@
     .spectrum {
         padding-top: 15px;
         height: 620px;
-    }
+        
+        .circles {
+            display: none;
+        }
+        
+        h1 {
+            font-size: 40px;
+        }
 
-    .spectrum h1 {
-        font-size: 40px;
-    }
-
-    .spectrum .row {
-        padding-left: 60px;
+        .row {
+            padding-left: 60px;
+        }
     }
     
     .functions-content {
