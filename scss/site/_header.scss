@@ -17,6 +17,11 @@ nav {
         margin-bottom: 5px;
     }
     
+    .active {
+        color: #455a64 !important;
+        border-bottom: 3px solid #f44336;
+    }
+    
     .nav-item {
         margin-top: 10px;
         margin-right: 50px;
@@ -25,11 +30,6 @@ nav {
             color: #455a64 !important;
             padding-bottom: 15px;
             font-size: 18px;
-            
-            .active {
-                color: #455a64 !important;
-                border-bottom: 3px solid #f44336;
-            }
         }
     }
 }
