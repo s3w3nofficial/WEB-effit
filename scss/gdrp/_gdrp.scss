@@ -70,3 +70,39 @@
         margin-bottom: 100px;
     }
 }
+
+@media (min-width: 763px) and (max-width: 992px) {
+    .gdrp .note button {
+        width: 200px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .gdrp {
+        padding-top: 60px;
+
+        h1 {
+            text-align: center;
+            font-size: 34px;
+            margin-bottom: 30px;
+        }
+
+        .note {
+
+            height: 170px;
+
+            .text {
+                border-left: none;
+                text-align: center;
+            }
+        }
+
+        .text {
+            margin-bottom: 30px;
+        }
+
+        .contact-text {
+            margin-bottom: 20px;
+        }
+    }
+}

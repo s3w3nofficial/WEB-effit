@@ -149,6 +149,36 @@ nav .nav-item .nav-link {
   padding-right: 20px;
 }
 
+@media (min-width: 763px) and (max-width: 992px) {
+  .gdrp .note button {
+    width: 200px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .gdrp {
+    padding-top: 60px;
+  }
+  .gdrp h1 {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+  .gdrp .note {
+    height: 170px;
+  }
+  .gdrp .note .text {
+    border-left: none;
+    text-align: center;
+  }
+  .gdrp .text {
+    margin-bottom: 30px;
+  }
+  .gdrp .contact-text {
+    margin-bottom: 20px;
+  }
+}
+
 footer {
   background-color: #eeeeee;
   padding-top: 80px;
