@@ -3,7 +3,7 @@
     h1 {
         text-align: center;
         padding-top: 140px;
-        font-family: $heading-font;
+        
         color: $text-field;
     }
 
@@ -25,12 +25,12 @@
                 width: 215px;
                 color: $white;
                 background: $turquoise;
-                font-family: $text-font;
+                
                 
                 .heading {
                     line-height: 80px;
                     color: $white;
-                    font-family: $heading-font;
+                    
                 }
             }
     
@@ -122,12 +122,12 @@
         .heading {
             font-size: 22px;
             font-weight: 600;
-            font-family: $heading-font !important;
+            font-family: $main-font !important;
             color: $text-field;
         }
         
         ul {
-            font-family: $text-font;
+            
             padding-top: 30px;
             padding-left: 0;
             margin-left: 15px;
@@ -137,7 +137,7 @@
         
         button {
             text-transform: uppercase;
-            font-family: $text-font;
+            
             margin-bottom: 140px;
         }
     }

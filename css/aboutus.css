@@ -1,17 +1,4 @@
-@font-face {
-  font-family: "Roboto-Bold";
-  src: url("../assets/fonts/DroidSans-Bold.eot?") format("eot"), url("../assets/fonts/DroidSans-Bold.woff") format("woff"), url("../assets/fonts/DroidSans-Bold.ttf") format("truetype"), url("../assets/fonts/DroidSans-Bold.svg#Roboto-Bold") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Roboto-Regular";
-  src: url("../assets/fonts/Roboto-Regular.eot?") format("eot"), url("../assets/fonts/Roboto-Regular.woff") format("woff"), url("../assets/fonts/Roboto-Regular.ttf") format("truetype"), url("../assets/fonts/Roboto-Regular.svg#Roboto-Regular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin-ext");
 /* set fonts */
 /* set colors */
 .mdl-button--red {
@@ -76,7 +63,7 @@ nav .nav-item .nav-link {
   color: #455a64 !important;
   padding-bottom: 15px;
   font-size: 18px;
-  font-family: "Roboto-Regular";
+  font-weight: bold;
 }
 
 .aboutus {
@@ -86,20 +73,17 @@ nav .nav-item .nav-link {
 .aboutus h1 {
   margin-top: 0px;
   color: #455a64;
-  font-family: "Roboto-Bold";
   margin-bottom: 80px;
 }
 
 .aboutus .subheading {
   font-size: 24px;
   color: #455a64;
-  font-family: "Roboto-Bold";
 }
 
 .aboutus .text {
   font-size: 18px;
   color: #90a4ae;
-  font-family: "Roboto-Regular";
   margin-bottom: 80px;
 }
 
@@ -111,16 +95,13 @@ nav .nav-item .nav-link {
 
 .aboutus .note .text span {
   font-size: 24px;
-  font-family: "Roboto-Regular";
 }
 
 .aboutus .note .text p {
   font-size: 18px;
-  font-family: "Roboto-Regular";
 }
 
 .aboutus .note .text button {
-  font-family: "Roboto-Regular";
   text-transform: uppercase;
   width: 237px;
   font-size: 14px;
@@ -134,13 +115,11 @@ nav .nav-item .nav-link {
 .aboutus .contact-text .heading {
   font-size: 18px;
   color: #009688;
-  font-family: "Roboto-Bold";
 }
 
 .aboutus .contact-text .row {
   padding-top: 30px;
   font-size: 14px;
-  font-family: "Roboto-Regular";
   color: #90a4ae;
 }
 
@@ -191,12 +170,10 @@ footer .usefull {
 footer .usefull .heading {
   font-size: 14px;
   color: #455a64;
-  font-family: "Roboto-Bold";
 }
 
 footer .usefull ul {
   list-style: none;
-  font-family: "Roboto-Regular";
   padding: 0;
 }
 
@@ -214,7 +191,6 @@ footer .copy {
   padding-bottom: 40px;
   color: #455a64;
   text-align: center;
-  font-family: "Roboto-Regular";
 }
 
 @media (max-width: 768px) {

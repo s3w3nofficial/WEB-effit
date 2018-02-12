@@ -1,17 +1,4 @@
-@font-face {
-  font-family: "Roboto-Bold";
-  src: url("../assets/fonts/DroidSans-Bold.eot?") format("eot"), url("../assets/fonts/DroidSans-Bold.woff") format("woff"), url("../assets/fonts/DroidSans-Bold.ttf") format("truetype"), url("../assets/fonts/DroidSans-Bold.svg#Roboto-Bold") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Roboto-Regular";
-  src: url("../assets/fonts/Roboto-Regular.eot?") format("eot"), url("../assets/fonts/Roboto-Regular.woff") format("woff"), url("../assets/fonts/Roboto-Regular.ttf") format("truetype"), url("../assets/fonts/Roboto-Regular.svg#Roboto-Regular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin-ext");
 /* set fonts */
 /* set colors */
 .mdl-button--red {
@@ -40,6 +27,15 @@
   font-size: 22px;
   width: 200px;
   height: 60px;
+}
+
+body, p {
+  font-family: "Roboto", sans-serif !important;
+}
+
+h1, .heading, .list-heading, .effit, .price-text, .with-dph {
+  font-family: "Roboto", sans-serif !important;
+  font-weight: bold !important;
 }
 
 .green {
@@ -92,44 +88,7 @@ nav .nav-item .nav-link {
   color: #455a64 !important;
   padding-bottom: 15px;
   font-size: 18px;
-  font-family: "Roboto-Regular";
-}
-
-nav {
-  height: 70px;
-  padding-bottom: 0px !important;
-  padding-top: 0px !important;
-  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
-  -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
-  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
-}
-
-nav .navbar-brand {
-  margin-right: 100px;
-}
-
-nav a {
-  text-decoration: none !important;
-}
-
-nav .navbar-nav .mdl-button--red {
-  margin-bottom: 20px;
-}
-
-nav .active {
-  border-bottom: 3px solid #f44336;
-}
-
-nav .nav-item {
-  margin-top: 20px;
-  margin-right: 50px;
-}
-
-nav .nav-item .nav-link {
-  color: #455a64 !important;
-  padding-bottom: 15px;
-  font-size: 18px;
-  font-family: "Roboto-Regular";
+  font-weight: bold;
 }
 
 .hero {
@@ -143,17 +102,15 @@ nav .nav-item .nav-link {
 .hero h1 {
   padding-top: 230px;
   margin-bottom: 55px;
-  font-family: "Roboto-Bold";
+  font-weight: bold;
 }
 
 .hero p {
   font-size: 18px;
   margin-bottom: 55px;
-  font-family: "Roboto-Regular";
 }
 
 .hero .mdl-button--red {
-  font-family: "Roboto-Bold";
   width: 300px;
   height: 55px;
   font-size: 20px;
@@ -167,7 +124,7 @@ nav .nav-item .nav-link {
   padding-left: 56px;
   padding-right: 56px;
   height: 40px;
-  font-family: "Roboto-Bold";
+  font-weight: bold;
   margin-bottom: 110px;
 }
 
@@ -186,6 +143,7 @@ nav .nav-item .nav-link {
   text-align: center;
   line-height: 0px;
   border-radius: 50%;
+  font-weight: bold;
   border: 2px solid rgba(255, 255, 255, 0.3);
 }
 
@@ -232,12 +190,11 @@ nav .nav-item .nav-link {
 
 .products {
   padding-top: 140px;
-  font-family: "Roboto-Bold";
 }
 
 .products .heading {
   text-align: center;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 56px;
   color: #455a64;
   margin-bottom: 100px;
@@ -261,7 +218,6 @@ nav .nav-item .nav-link {
 }
 
 .products .content-card ul {
-  font-family: "Roboto-Regular";
   padding-left: 35px;
   margin-top: 20px;
   font-size: 18px;
@@ -292,7 +248,6 @@ nav .nav-item .nav-link {
   line-height: 30px;
   text-align: center;
   font-size: 22px;
-  font-family: "Roboto-Regular";
 }
 
 .products .products-list {
@@ -308,14 +263,12 @@ nav .nav-item .nav-link {
 
 .products .products-list .product-info {
   margin-top: 50px;
-  font-family: "Roboto";
   color: #90a4ae;
 }
 
 .products .products-list .product-info .effit {
   font-size: 14px;
   margin-bottom: 0px;
-  font-family: "Roboto-Bold";
   text-transform: uppercase;
 }
 
@@ -327,11 +280,9 @@ nav .nav-item .nav-link {
 }
 
 .products .products-list .product-info .price-text {
-  font-weight: 800;
   color: #455a64;
   font-size: 14px;
   margin-bottom: 0;
-  font-family: "Roboto-Bold";
 }
 
 .products .products-list .product-info .product-price {
@@ -341,11 +292,9 @@ nav .nav-item .nav-link {
 
 .products .products-list .product-info .with-dph {
   font-size: 14px;
-  font-family: "Roboto-Bold";
 }
 
 .products .products-list .product-info button {
-  font-family: "Roboto-Bold";
   height: 65px;
   width: 250px;
   margin-bottom: 140px;
@@ -359,30 +308,27 @@ nav .nav-item .nav-link {
 .advantages .heading {
   padding-top: 140px;
   color: #fff;
-  font-family: "Roboto-Bold";
+  font-weight: bold;
 }
 
 .advantages .advantages-list {
   padding-top: 50px;
   padding-bottom: 200px;
-  font-family: "Roboto";
+  font-family: "Roboto" sans-serif;
   font-size: 22px;
   color: #949493;
   list-style: none;
   padding-left: 0px;
   line-height: 35px;
-  font-family: "Roboto-Regular";
 }
 
 .advantages .advantages-list .highlight {
   color: #fff;
-  font-family: "Roboto-Bold";
 }
 
 .spectrum h1 {
   text-align: center;
   padding-top: 140px;
-  font-family: "Roboto-Bold";
   color: #455a64;
 }
 
@@ -406,13 +352,11 @@ nav .nav-item .nav-link {
   width: 215px;
   color: #fff;
   background: #009688;
-  font-family: "Roboto-Regular";
 }
 
 .spectrum .row .circles .main-circle .heading {
   line-height: 80px;
   color: #fff;
-  font-family: "Roboto-Bold";
 }
 
 .spectrum .row .circles .circle {
@@ -502,12 +446,11 @@ nav .nav-item .nav-link {
 .spectrum .row .heading {
   font-size: 22px;
   font-weight: 600;
-  font-family: "Roboto-Bold" !important;
+  font-family: "Roboto", sans-serif !important;
   color: #455a64;
 }
 
 .spectrum .row ul {
-  font-family: "Roboto-Regular";
   padding-top: 30px;
   padding-left: 0;
   margin-left: 15px;
@@ -517,7 +460,6 @@ nav .nav-item .nav-link {
 
 .spectrum .row button {
   text-transform: uppercase;
-  font-family: "Roboto-Regular";
   margin-bottom: 140px;
 }
 
@@ -525,7 +467,6 @@ nav .nav-item .nav-link {
   font-size: 40px;
   color: #f44336;
   text-align: center;
-  font-family: "Roboto-Bold";
 }
 
 .functions .functions-content {
@@ -543,7 +484,6 @@ nav .nav-item .nav-link {
   color: #455a64;
   margin-bottom: 0;
   font-size: 18px;
-  font-family: "Roboto-Bold";
 }
 
 .functions .functions-content .collapse-card .circle-check {
@@ -561,7 +501,6 @@ nav .nav-item .nav-link {
 }
 
 .functions .functions-content .collapse-card .collapse-card-text {
-  font-family: "Roboto-Regular";
   color: #90a4ae;
   padding-left: 50px;
   padding-top: 5px;
@@ -569,7 +508,6 @@ nav .nav-item .nav-link {
 
 .functions .functions-content .collapse-card .preparing {
   color: #f44336;
-  font-family: "Roboto-Bold";
 }
 
 .functions .functions-content .collapse-card .images {
@@ -587,7 +525,6 @@ nav .nav-item .nav-link {
 .functions .mdl-button--red {
   width: 300px;
   height: 55px;
-  font-family: "Roboto-Bold";
   display: block;
   margin: 0 auto;
   font-size: 22px;
@@ -606,7 +543,6 @@ nav .nav-item .nav-link {
   padding-top: 140px;
   text-align: center;
   color: #fff;
-  font-family: "Roboto-Regular";
 }
 
 .support p {
@@ -615,7 +551,6 @@ nav .nav-item .nav-link {
   font-size: 18px;
   color: #fff;
   padding-bottom: 50px;
-  font-family: "Roboto-Bold";
 }
 
 .support .contact-button {
@@ -627,7 +562,6 @@ nav .nav-item .nav-link {
   height: 40px;
   display: block;
   margin: 0 auto;
-  font-family: "Roboto-Regular";
 }
 
 footer {
@@ -642,12 +576,10 @@ footer .usefull {
 footer .usefull .heading {
   font-size: 14px;
   color: #455a64;
-  font-family: "Roboto-Bold";
 }
 
 footer .usefull ul {
   list-style: none;
-  font-family: "Roboto-Regular";
   padding: 0;
 }
 
@@ -665,7 +597,6 @@ footer .copy {
   padding-bottom: 40px;
   color: #455a64;
   text-align: center;
-  font-family: "Roboto-Regular";
 }
 
 .bonus-services {
@@ -675,18 +606,15 @@ footer .copy {
 .bonus-services h1 {
   margin-top: 0px;
   color: #455a64;
-  font-family: "Roboto-Bold";
 }
 
-.bonus-services p {
+.bonus-services .heading {
   padding-top: 50px;
   color: #455a64;
-  font-family: "Roboto-Bold";
   font-size: 18px;
 }
 
 .bonus-services .bonus-services-list {
-  font-family: "Roboto-Regular";
   color: #90a4ae;
   padding-left: 15px;
   padding-bottom: 50px;
@@ -698,11 +626,30 @@ footer .copy {
   height: 45px;
   width: 237px;
   margin-bottom: 50px;
-  font-family: "Roboto-Bold";
 }
 
 .bonus-services img {
   margin-top: 132px;
+}
+
+.modal-content {
+  display: block;
+  margin: 0 auto;
+  border-radius: 0;
+  border: none;
+  background-color: #fff;
+}
+
+.modal-content h1 {
+  text-align: center;
+  color: #455a64;
+  font-weight: bold;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.modal-content input {
+  margin-bottom: 30px;
 }
 
 @media (max-width: 768px) {

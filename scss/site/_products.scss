@@ -1,13 +1,13 @@
 .products {
     padding-top: 140px;
-    font-family: $heading-font;
     
     .heading {
         text-align: center;
-        font-weight: 500;
+        font-weight: bold;
         font-size: 56px;
         color: #455a64;
         margin-bottom: 100px;
+        
     }
     
     
@@ -28,7 +28,6 @@
         }
         
         ul {
-            font-family: $text-font;
             padding-left: 35px;
             margin-top: 20px;
             font-size: 18px;
@@ -60,7 +59,6 @@
             line-height: 30px;
             text-align: center;
             font-size: 22px;
-            font-family: $text-font;
         }
     }
     
@@ -76,13 +74,11 @@
         
         .product-info {
             margin-top: 50px;
-            font-family: "Roboto";
             color: $text-field-light;
             
             .effit {
                 font-size: 14px;
                 margin-bottom: 0px;
-                font-family: $heading-font;
                 text-transform: uppercase;
             }
             
@@ -94,11 +90,9 @@
             }
             
             .price-text {
-                font-weight: 800;
                 color: #455a64;
                 font-size: 14px;
                 margin-bottom: 0;
-                font-family: $heading-font;
             }
             
             .product-price {
@@ -108,11 +102,10 @@
             
             .with-dph {
                 font-size: 14px;
-                font-family: $heading-font;
             }
             
             button {
-                font-family: $heading-font;
+                
                 height: 65px;
                 width: 250px;
                 margin-bottom: 140px;

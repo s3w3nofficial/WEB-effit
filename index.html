@@ -317,7 +317,7 @@
                 <div class="col-md-6">
                     <h1>Doplňkové služby</h1>
 
-                    <p>od týmu Blue Partners</p>
+                    <span class="heading">od týmu Blue Partners</span>
 
                     <ul class="bonus-services-list">
                         <li>Zajistíme Vaši shodu s GDPR</li>
@@ -367,49 +367,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        $(".button-scroll").click(function() {
-            $('html, body').animate({
-                scrollTop: $(".spectrum").offset().top
-            }, 2000);
-        });
-
-        $(".spectrum .circle").click(function(){
-            $(".spectrum .circle ").removeClass("active");
-            $(this).addClass("active");
-
-            if($(this).attr("class").indexOf("c1") >= 0)
-            {
-                $(".main-circle .heading").text("Organizace");
-                $(".main-circle .text").text("Lorem ipsum");
-            } else if($(this).attr("class").indexOf("c2") >= 0)
-            {
-                $(".main-circle .heading").text("Správa");
-                $(".main-circle .text").text("Lorem ipsum");
-            } else if($(this).attr("class").indexOf("c3") >= 0)
-            {
-                $(".main-circle .heading").text("Úøady");
-                $(".main-circle .text").text("Lorem ipsum");
-            } else if($(this).attr("class").indexOf("c4") >= 0)
-            {
-                $(".main-circle .heading").text("Školství");
-                $(".main-circle .text").text("Lorem ipsum");
-            } else if($(this).attr("class").indexOf("c5") >= 0)
-            {
-                $(".main-circle .heading").text("Zdravotnictví");
-                $(".main-circle .text").text("Lorem ipsum");
-            } 
-        });
-
-        $(".functions .collapse-button").click(function() {
-            console.log("neco");
-            if($(this).text() == "keyboard_arrow_down")
-            {
-                $(this).text("keyboard_arrow_up");
-            } else {
-                $(this).text("keyboard_arrow_down");
-            }
-        });
-    </script>
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html

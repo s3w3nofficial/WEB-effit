@@ -4,7 +4,7 @@
         font-size: 40px;
         color: $red;
         text-align: center;
-        font-family: $heading-font;
+        
     }
     
     .functions-content {
@@ -21,7 +21,7 @@
                 color: $text-field;
                 margin-bottom: 0;
                 font-size: 18px;
-                font-family: $heading-font;
+                
             }
             
             .circle-check {
@@ -39,7 +39,7 @@
             }
             
             .collapse-card-text {
-                font-family: $text-font;
+                
                 color: $text-field-light;
                 padding-left: 50px;
                 padding-top: 5px;
@@ -47,7 +47,7 @@
             
             .preparing {
                 color: $red;
-                font-family: $heading-font;
+                
             }
             
             .images {
@@ -67,7 +67,7 @@
     .mdl-button--red {
         width: 300px;
         height: 55px;
-        font-family: $heading-font;
+        
         display: block;
         margin: 0 auto;
         font-size: 22px;

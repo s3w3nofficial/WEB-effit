@@ -5,23 +5,24 @@
     .heading {
         padding-top: 140px;
         color: $white;
-        font-family: $heading-font;
+        
+        font-weight: bold;
     }
         
     .advantages-list {
         padding-top: 50px;
         padding-bottom: 200px;
-        font-family: "Roboto";
+        font-family: "Roboto" sans-serif;
         font-size: 22px;
         color: $grey;
         list-style: none;
         padding-left: 0px;
         line-height: 35px;
-        font-family: $text-font;
+        
         
         .highlight {
             color: $white;
-            font-family: $heading-font;
+            
         }
     }
         
