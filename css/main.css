@@ -31,6 +31,7 @@
 
 body, p {
   font-family: "Roboto", sans-serif !important;
+  counter-reset: section;
 }
 
 h1, .heading, .list-heading, .effit, .price-text, .with-dph {
@@ -331,6 +332,28 @@ nav .nav-item .nav-link {
 
 .advantages .advantages-list .highlight {
   color: #fff;
+}
+
+.advantages .advantages-list li {
+  display: -webkit-box;
+}
+
+.advantages .advantages-list li:before {
+  counter-increment: section;
+  content: counter(section);
+  margin-right: 15px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  height: 20px;
+  width: 20px;
+  color: white;
+  background-color: #f44336;
 }
 
 .spectrum h1 {
@@ -738,6 +761,13 @@ footer .copy {
     padding-top: 25px !important;
     padding-bottom: 30px !important;
     font-size: 19px;
+  }
+  .advantages .advantages-list li {
+    display: flow-root;
+  }
+  .advantages .advantages-list li::before {
+    content: "";
+    display: none;
   }
   .spectrum {
     padding-top: 15px;

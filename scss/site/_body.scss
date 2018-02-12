@@ -1,5 +1,6 @@
 body, p {
     font-family: $main-font !important;
+    counter-reset: section;            
 }
 
 h1, .heading, .list-heading, .effit, .price-text, .with-dph {

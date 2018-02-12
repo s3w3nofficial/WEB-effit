@@ -101,6 +101,15 @@
         font-size: 19px;
     }
 
+    .advantages .advantages-list li {
+        display: flow-root;
+    }
+
+    .advantages .advantages-list li::before {
+        content: "";
+        display: none;
+    }    
+
     .spectrum {
         padding-top: 15px;
         height: 620px;
