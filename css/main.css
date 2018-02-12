@@ -292,6 +292,7 @@ nav .nav-item .nav-link {
 }
 
 .products .products-list .product-info .product-price {
+  font-weight: bold;
   font-size: 22px;
   margin-bottom: 50px;
 }
