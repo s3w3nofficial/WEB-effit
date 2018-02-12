@@ -64,6 +64,8 @@ nav .nav-item .nav-link {
   padding-bottom: 15px;
   font-size: 18px;
   font-weight: bold;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: bold !important;
 }
 
 .gdpr {
