@@ -38,6 +38,10 @@ h1, .heading, .list-heading, .effit, .price-text, .with-dph {
   font-weight: bold !important;
 }
 
+.mdl-button--raised {
+  border-radius: 3px !important;
+}
+
 .green {
   color: #4caf50;
 }
