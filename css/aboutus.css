@@ -427,4 +427,25 @@ footer .copy {
     margin-top: 116px;
   }
 }
+
+@media (min-width: 993px) and (max-width: 1024px) {
+  .products .products-list img {
+    padding-left: 45px;
+  }
+  .spectrum .row .circles .c1 {
+    left: 200px;
+  }
+  .spectrum .row .circles .c2 {
+    left: 50px;
+  }
+  .spectrum .row .circles .c3 {
+    left: 90px;
+  }
+  .spectrum .row .circles .c4 {
+    left: 345px;
+  }
+  .spectrum .row .circles .c5 {
+    left: 305px;
+  }
+}
 /*# sourceMappingURL=aboutus.css.map */
