@@ -340,6 +340,9 @@ footer .copy {
     text-align: center;
     font-size: 40px;
   }
+  .bonus-services .col-md-6 span {
+    padding-left: 55px;
+  }
   .bonus-services .col-md-6 p {
     padding-left: 40px;
     padding-top: 15px;
@@ -411,6 +414,9 @@ footer .copy {
   }
   .support .heading {
     padding-top: 65px;
+  }
+  .bonus-services .heading {
+    padding-left: 55px;
   }
   .bonus-services img {
     margin-top: 116px;
