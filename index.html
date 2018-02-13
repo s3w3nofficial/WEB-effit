@@ -326,7 +326,7 @@
                         <li>Zajistíme Vám roli DPO</li>
                     </ul>
 
-                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect contact-us-button">
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect contact-us-button" data-toggle="modal" data-target="#exampleModal">
                         NAPIŠTE NÁM
                     </button>  
                 </div>
@@ -361,6 +361,75 @@
             <div class="copy">2018 © Copyright Blue Partners s.r.o.</div>
         </div>
     </footer>
+
+    
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                
+                <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored button-close-modal" data-dismiss="modal" aria-label="Close">
+                    <i class="material-icons">keyboard_arrow_left</i>
+                </button>
+
+                <span class="back">Zpet</span>
+
+                <div class="contactus-modal">
+                    <div class="container">
+                        <h1>Ozvete se nam</h1>
+            
+                        <form action="">
+                            <div class="form-group">
+                                <label for="name">Jmeno a Prijmeni</label>
+                                <input type="text" name="name">
+                    
+                                <label for="enail">Email</label>
+                                <input type="text" name="email">
+            
+                                <label for="tel">Telephone</label>
+                                <input type="text" name="tel">
+            
+                                <label for="message">Message for us</label>
+                                <input type="text" name="message">
+            
+                                <div class="conditions">
+                                    <input type="checkbox" name="conditions">
+                                    <label for="conditions">i agree with license conditions</label>
+                                </div>
+            
+                                <p>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, tempora culpa? Modi omnis, temporibus esse expedita aliquam, natus officia, 
+                                </p>
+            
+                                <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button-turquoise">
+                                    <i class="fa fa-shopping-cart"></i> Zakoupit EFFIT gdpr
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="row">
+                            <div class="col-3">
+                                <img class="img-fluid effit-logo" src="assets/img/logo.png" alt="">
+                            </div>
+                            <div class="col-3 bp-logo">
+                                <img class="img-fluid" src="assets/img/logo_2.png" alt="">
+                            </div>
+                            <div class="col-2"></div>
+                            <div class="col-4">
+                                <ul>
+                                    <li><i class="fa fa-phone"></i>(+420) 725 949 433</li>
+                                    <li><i class="fa fa-envelope"></i>obchod@bluepartners.cz</li>
+                                    <li>Ochrana soukromi</li>
+                                    <li>obchodni podminky</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
