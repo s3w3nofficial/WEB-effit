@@ -662,24 +662,70 @@ footer .copy {
   margin-top: 132px;
 }
 
-.modal-content {
-  display: block;
-  margin: 0 auto;
-  border-radius: 0;
-  border: none;
+.contactus-modal {
   background-color: #fff;
 }
 
-.modal-content h1 {
-  text-align: center;
+.contactus-modal h1 {
   color: #455a64;
   font-weight: bold;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
-.modal-content input {
+.contactus-modal form {
+  color: #90a4ae;
+}
+
+.contactus-modal form label {
+  padding-bottom: 30px;
+}
+
+.contactus-modal form input[type="text"] {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.87);
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+  outline: 0;
+  padding: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  font-size: 16px;
+  font-family: inherit;
+  line-height: inherit;
+  background-image: none;
+}
+
+.contactus-modal form input[type="text"]:focus {
+  color: #009688;
+  border-color: #009688;
+  border-width: 2px;
+}
+
+.contactus-modal form .conditions {
+  margin-top: 50px;
   margin-bottom: 30px;
+  display: flex;
+}
+
+.contactus-modal form button {
+  margin-top: 65px;
+  margin-bottom: 100px;
+}
+
+.contactus-modal .modal-footer {
+  background-color: #eee;
+}
+
+.contactus-modal .modal-footer .row {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 @media (max-width: 768px) {

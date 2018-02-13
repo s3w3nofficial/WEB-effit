@@ -17,41 +17,64 @@
     <!-- Material Design Lite -->
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
     
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/modal.css">
 
     <title>[Web] EFFIT</title>
 
     <style>
         body {
-            background-color: #eee;
+            background-color:lightblue;
         }
     </style>
   </head>
   <body>
 
-    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--red" data-toggle="modal" data-target=".bd-example-modal-lg">
-        Open Modal
-    </button>
+    <div class="contactus-modal">
+        <div class="container">
+            <h1>Ozvete se nam</h1>
 
-    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <h1>Ozvěte se nám</h1>
+            <form action="">
                 <div class="form-group">
-                    <label for="name">Jméno a Příjmení</label>
-                    <input type="text" class="form-control">
-    
-                    <label for="name">Jméno a Příjmení</label>
-                    <input type="text" class="form-control">
-    
-                    <label for="name">Jméno a Příjmení</label>
-                    <input type="text" class="form-control">
+                    <label for="name">Jmeno a Prijmeni</label>
+                    <input type="text" name="name">
+        
+                    <label for="enail">Email</label>
+                    <input type="text" name="email">
 
-                    <input type="checkbox">
+                    <label for="tel">Telephone</label>
+                    <input type="text" name="tel">
+
+                    <label for="message">Message for us</label>
+                    <input type="text" name="message">
+
+                    <div class="conditions">
+                        <input type="checkbox" name="conditions">
+                        <label for="conditions">i agree with license conditions</label>
+                    </div>
+
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, tempora culpa? Modi omnis, temporibus esse expedita aliquam, natus officia, 
+                    </p>
+
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button-turquoise">
+                        <i class="fa fa-shopping-cart"></i> Zakoupit EFFIT gdpr
+                    </button>
+                </div>
+            </form>
+
+            <div class="modal-footer">
+                <div class="row">
+                    <div class="col-3">
+                        <img class="img-fluid" src="assets/img/logo.png" alt="">
+                    </div>
+                    <div class="col-3">
+                        <img class="img-fluid" src="assets/img/logo_2.png" alt="">
+                    </div>
+                    <div class="col-6"></div>
                 </div>
             </div>
         </div>
-    </div>      
+    </div>    
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
