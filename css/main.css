@@ -661,26 +661,53 @@ footer .copy {
   margin-top: 132px;
 }
 
+.button-close-modal {
+  color: #455a64 !important;
+  top: 30px;
+  background: #eee !important;
+  width: 60px !important;
+  height: 60px !important;
+  left: 30px;
+  position: absolute;
+}
+
+.back {
+  color: #90a4ae;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  font-size: 18px;
+}
+
 .contactus-modal {
+  width: auto;
   background-color: #fff;
 }
 
-.contactus-modal h1 {
+.contactus-modal .container h1 {
+  margin-top: 0;
   color: #455a64;
   font-weight: bold;
-  margin-top: 100px;
+  padding-top: 100px;
   margin-bottom: 100px;
+  text-align: center;
 }
 
-.contactus-modal form {
+.contactus-modal .container form {
   color: #90a4ae;
 }
 
-.contactus-modal form label {
-  padding-bottom: 30px;
+.contactus-modal .container form .form-group {
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
-.contactus-modal form input[type="text"] {
+.contactus-modal .container form label {
+  font-size: 14px;
+}
+
+.contactus-modal .container form input[type="text"] {
+  margin-bottom: 30px;
   width: 100%;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -700,20 +727,33 @@ footer .copy {
   background-image: none;
 }
 
-.contactus-modal form input[type="text"]:focus {
+.contactus-modal .container form input[type="text"]:focus {
   color: #009688;
   border-color: #009688;
   border-width: 2px;
 }
 
-.contactus-modal form .conditions {
+.contactus-modal .container form .conditions {
   margin-top: 50px;
   margin-bottom: 30px;
   display: flex;
 }
 
-.contactus-modal form button {
+.contactus-modal .container form .conditions input[type="checkbox"] {
+  margin-top: 4px;
+}
+
+.contactus-modal .container form .conditions label {
+  margin-left: 10px;
+}
+
+.contactus-modal .container form button {
   margin-top: 65px;
+  width: 100%;
+  height: 65px;
+  background-color: #009688;
+  color: white;
+  font-size: 22px;
   margin-bottom: 100px;
 }
 
@@ -725,6 +765,23 @@ footer .copy {
   width: 100%;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.contactus-modal .modal-footer .row .effit-logo {
+  padding-top: 30px;
+}
+
+.contactus-modal .modal-footer .row .bp-logo {
+  padding-top: 15px;
+}
+
+.contactus-modal .modal-footer .row li {
+  color: #90a4ae;
+  list-style: none;
+}
+
+.contactus-modal .modal-footer .row li .fa {
+  margin-right: 15px;
 }
 
 @media (max-width: 768px) {
