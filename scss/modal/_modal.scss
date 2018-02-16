@@ -143,6 +143,11 @@
             text-align: center;
         }
 
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+
         form {
             color: $text-field-light;
 

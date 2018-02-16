@@ -43,11 +43,16 @@
                 color: $text-field-light;
                 padding-left: 50px;
                 padding-top: 5px;
+
+                .subheading {
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    overflow: hidden;
+                }
             }
             
             .preparing {
                 color: $red;
-                
             }
             
             .images {
