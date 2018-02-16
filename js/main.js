@@ -18,7 +18,7 @@ $(".spectrum .circle").click(function(){
         $(".main-circle .text").text("Lorem ipsum");
     } else if($(this).attr("class").indexOf("c3") >= 0)
     {
-        $(".main-circle .heading").text("Úøady");
+        $(".main-circle .heading").text("Úřady");
         $(".main-circle .text").text("Lorem ipsum");
     } else if($(this).attr("class").indexOf("c4") >= 0)
     {

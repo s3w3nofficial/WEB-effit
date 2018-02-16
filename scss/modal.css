@@ -166,6 +166,11 @@
   text-align: center;
 }
 
+.buy-product-modal .container img {
+  display: block;
+  margin: 0 auto;
+}
+
 .buy-product-modal .container form {
   color: #90a4ae;
 }

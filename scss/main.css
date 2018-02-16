@@ -535,6 +535,12 @@ nav .nav-item .nav-link {
   padding-top: 5px;
 }
 
+.functions .functions-content .collapse-card .collapse-card-text .subheading {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
 .functions .functions-content .collapse-card .preparing {
   color: #f44336;
 }
@@ -796,6 +802,11 @@ footer .copy {
   padding-top: 100px;
   margin-bottom: 100px;
   text-align: center;
+}
+
+.buy-product-modal .container img {
+  display: block;
+  margin: 0 auto;
 }
 
 .buy-product-modal .container form {
