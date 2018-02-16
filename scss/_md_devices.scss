@@ -8,6 +8,8 @@
 
         .content-card {
 
+            height: auto;
+
             .col-md-9 {
                 li {
                     font-size: 16px;
@@ -46,8 +48,7 @@
         }
     }
     
-    .advantages {
-        height: 450px;
+    .advantages {   
         background-position-x: 65px;
 
         .heading {
