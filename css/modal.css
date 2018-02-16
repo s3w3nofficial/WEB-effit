@@ -1,0 +1,517 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin-ext");
+/* set fonts */
+/* set colors */
+.mdl-button--red {
+  background-color: #f44336 !important;
+  color: white;
+}
+
+.mdl-button--red > .fa-shopping-cart, .mdl-button--green > .fa-shopping-cart, .mdl-button--blue > .fa-shopping-cart, .mdl-button--purple > .fa-shopping-cart {
+  padding-right: 10px;
+}
+
+.mdl-button--green {
+  background-color: #4caf50 !important;
+}
+
+.mdl-button--blue {
+  background-color: #4554a5 !important;
+}
+
+.mdl-button--purple {
+  background-color: #4b2d87 !important;
+}
+
+.mdl-button--green, .mdl-button--blue, .mdl-button--purple {
+  color: white;
+  font-size: 22px;
+  width: 200px;
+  height: 60px;
+}
+
+.button-close-modal {
+  color: #455a64 !important;
+  top: 30px;
+  background: #eee !important;
+  width: 60px !important;
+  height: 60px !important;
+  left: 30px;
+  position: absolute;
+}
+
+.back {
+  color: #90a4ae;
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  font-size: 18px;
+}
+
+.contactus-modal {
+  width: auto;
+  background-color: #fff;
+}
+
+.contactus-modal .container h1 {
+  margin-top: 0;
+  color: #455a64;
+  font-weight: bold;
+  padding-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.contactus-modal .container form {
+  color: #90a4ae;
+}
+
+.contactus-modal .container form .form-group {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.contactus-modal .container form label {
+  font-size: 14px;
+}
+
+.contactus-modal .container form input[type="text"] {
+  margin-bottom: 30px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.87);
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+  outline: 0;
+  padding: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  font-size: 16px;
+  font-family: inherit;
+  line-height: inherit;
+  background-image: none;
+}
+
+.contactus-modal .container form input[type="text"]:focus {
+  color: #009688;
+  border-color: #009688;
+  border-width: 2px;
+}
+
+.contactus-modal .container form .conditions {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.contactus-modal .container form .conditions input[type="checkbox"] {
+  margin-top: 4px;
+}
+
+.contactus-modal .container form .conditions label {
+  margin-left: 10px;
+}
+
+.contactus-modal .container form button {
+  margin-top: 65px;
+  width: 100%;
+  height: 50px;
+  background-color: #009688;
+  color: white;
+  font-size: 22px;
+  margin-bottom: 100px;
+}
+
+.contactus-modal .modal-footer {
+  background-color: #eee;
+}
+
+.contactus-modal .modal-footer .row {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contactus-modal .modal-footer .row .effit-logo {
+  padding-top: 30px;
+}
+
+.contactus-modal .modal-footer .row .bp-logo {
+  padding-top: 15px;
+}
+
+.contactus-modal .modal-footer .row li {
+  color: #90a4ae;
+  list-style: none;
+}
+
+.contactus-modal .modal-footer .row li .fa {
+  margin-right: 15px;
+}
+
+.buy-product-modal {
+  width: max-content;
+  background-color: #fff;
+}
+
+.buy-product-modal .container h1 {
+  margin-top: 0;
+  color: #455a64;
+  font-weight: bold;
+  padding-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.buy-product-modal .container img {
+  display: block;
+  margin: 0 auto;
+}
+
+.buy-product-modal .container form {
+  color: #90a4ae;
+}
+
+.buy-product-modal .container form .form-group {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.buy-product-modal .container form label {
+  font-size: 14px;
+}
+
+.buy-product-modal .container form input[type="text"] {
+  margin-bottom: 30px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.87);
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.26);
+  outline: 0;
+  padding: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0;
+  font-size: 16px;
+  font-family: inherit;
+  line-height: inherit;
+  background-image: none;
+}
+
+.buy-product-modal .container form input[type="text"]:focus {
+  color: #009688;
+  border-color: #009688;
+  border-width: 2px;
+}
+
+.buy-product-modal .container form .conditions {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  display: flex;
+}
+
+.buy-product-modal .container form .conditions input[type="checkbox"] {
+  margin-top: 4px;
+}
+
+.buy-product-modal .container form .conditions label {
+  margin-left: 10px;
+}
+
+.buy-product-modal .container form button {
+  margin-top: 65px;
+  width: 100%;
+  height: 50px;
+  background-color: #009688;
+  color: white;
+  font-size: 22px;
+  margin-bottom: 100px;
+}
+
+.buy-product-modal .modal-footer {
+  background-color: #eee;
+}
+
+.buy-product-modal .modal-footer .row {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.buy-product-modal .modal-footer .row .effit-logo {
+  padding-top: 30px;
+}
+
+.buy-product-modal .modal-footer .row .bp-logo {
+  padding-top: 15px;
+}
+
+.buy-product-modal .modal-footer .row li {
+  color: #90a4ae;
+  list-style: none;
+}
+
+.buy-product-modal .modal-footer .row li .fa {
+  margin-right: 15px;
+}
+
+@media (max-width: 768px) {
+  nav {
+    height: unset;
+  }
+  .hero {
+    height: 625px;
+    padding-top: 50px;
+  }
+  .hero h1 {
+    padding-top: 30px;
+    font-size: 36px;
+  }
+  .hero p {
+    font-size: 17px;
+  }
+  .hero .mdl-button--red {
+    width: 240px;
+    height: 40px;
+    font-size: 18px;
+  }
+  .hero .circles {
+    display: none;
+  }
+  .hero .button-scroll {
+    top: 590px;
+  }
+  .products {
+    padding: 40px 0;
+  }
+  .products .heading {
+    font-size: 35px;
+    margin-bottom: 40px;
+  }
+  .products .content-card {
+    padding: 0;
+    margin-top: 0px;
+    margin-left: 0px;
+    height: unset;
+  }
+  .products .content-card ul {
+    line-height: 25px;
+  }
+  .products .content-card .col-md-3 {
+    text-align: center;
+  }
+  .products .content-card .col-md-3 img {
+    display: block;
+    margin: 0 auto;
+  }
+  .products .products-list {
+    padding-top: 0;
+  }
+  .products .products-list img {
+    padding-left: 50px;
+  }
+  .products .products-list .product-info {
+    margin-top: 40px;
+  }
+  .products .products-list .product-info button {
+    margin-bottom: 40px;
+  }
+  .products .product1 {
+    margin-top: 45px;
+  }
+  .products .product2, .products .product3 {
+    margin-top: 0px;
+  }
+  .advantages {
+    text-align: center;
+    height: unset !important;
+  }
+  .advantages .heading {
+    padding-top: 20px;
+    font-size: 26px;
+  }
+  .advantages-list {
+    padding-top: 25px !important;
+    padding-bottom: 30px !important;
+    font-size: 19px;
+  }
+  .advantages .advantages-list li {
+    display: flow-root;
+  }
+  .advantages .advantages-list li::before {
+    content: "";
+    display: none;
+  }
+  .spectrum {
+    padding-top: 15px;
+    height: 620px;
+  }
+  .spectrum .circles {
+    display: none;
+  }
+  .spectrum h1 {
+    padding-top: 30px;
+    font-size: 40px;
+  }
+  .spectrum .row {
+    padding-left: 60px;
+    padding-top: 0px;
+  }
+  .functions-content {
+    padding-top: 0px !important;
+  }
+  .collapse-card-text {
+    padding-left: 30px;
+  }
+  .content-card {
+    padding: 0;
+    margin-top: 50px;
+    margin-left: 0;
+  }
+  .functions .mdl-button--red {
+    margin-bottom: 60px;
+  }
+  .support {
+    padding-top: 30px;
+    height: 460px;
+  }
+  .support h1 {
+    padding-top: 30px;
+    font-size: 24px;
+  }
+  .support p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .bonus-services {
+    margin-top: 30px;
+  }
+  .bonus-services img {
+    margin-top: 0px;
+  }
+  .bonus-services .col-md-6 {
+    padding: 0;
+  }
+  .bonus-services .col-md-6 h1 {
+    text-align: center;
+    font-size: 40px;
+  }
+  .bonus-services .col-md-6 span {
+    padding-left: 55px;
+  }
+  .bonus-services .col-md-6 p {
+    padding-left: 40px;
+    padding-top: 15px;
+  }
+  .bonus-services .col-md-6 .bonus-services-list {
+    padding-left: 55px;
+    padding-bottom: 15px;
+  }
+  .bonus-services .col-md-6 button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  footer {
+    padding-top: 40px;
+  }
+  footer .col-md-3 {
+    padding-bottom: 20px;
+  }
+  footer .col-md-3 img {
+    display: block;
+    margin: 0 auto;
+  }
+  footer .usefull {
+    text-align: center;
+  }
+  footer hr {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 763px) and (max-width: 992px) {
+  nav .nav-item {
+    margin-right: 0px;
+  }
+  .products .content-card {
+    height: auto;
+  }
+  .products .content-card .col-md-9 li {
+    font-size: 16px;
+  }
+  .products .content-card .col-md-3 p {
+    font-size: 16px;
+  }
+  .products .products-list .container {
+    padding: 0;
+  }
+  .products .products-list .container img {
+    padding-left: 40px;
+    max-width: 240px;
+  }
+  .products .products-list .container .product1, .products .products-list .container .product2, .products .products-list .container .product3 {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 45px;
+  }
+  .products .products-list .container .product1 button, .products .products-list .container .product2 button, .products .products-list .container .product3 button {
+    width: 180px;
+  }
+  .advantages {
+    background-position-x: 65px;
+  }
+  .advantages .heading {
+    padding-top: 40px;
+  }
+  .spectrum .content {
+    display: table;
+    margin: 0 auto;
+  }
+  .spectrum .circles {
+    display: none;
+  }
+  .support .heading {
+    padding-top: 65px;
+  }
+  .bonus-services .heading {
+    padding-left: 55px;
+  }
+  .bonus-services img {
+    margin-top: 116px;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1024px) {
+  .products .products-list img {
+    padding-left: 45px;
+  }
+  .spectrum .row .circles .c1 {
+    left: 200px;
+  }
+  .spectrum .row .circles .c2 {
+    left: 50px;
+  }
+  .spectrum .row .circles .c3 {
+    left: 90px;
+  }
+  .spectrum .row .circles .c4 {
+    left: 345px;
+  }
+  .spectrum .row .circles .c5 {
+    left: 305px;
+  }
+  .bonus-services img {
+    margin-top: 168px;
+  }
+}
+/*# sourceMappingURL=modal.css.map */
