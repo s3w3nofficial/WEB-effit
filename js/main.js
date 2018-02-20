@@ -32,11 +32,20 @@ $(".spectrum .circle").click(function(){
 });
 
 $(".functions .collapse-button").click(function() {
-    console.log("neco");
     if($(this).text() == "keyboard_arrow_down")
     {
+        $(this).parent().parent().parent().children('.col-8').children('.subheading').css({
+            "text-overflow": "unset",
+            "white-space": "unset",
+            "overflow": "unset",
+        });
         $(this).text("keyboard_arrow_up");
     } else {
+        $(this).parent().parent().parent().children('.col-8').children('.subheading').css({
+            "text-overflow": "ellipsis",
+            "white-space": "nowrap",
+            "overflow": "hidden",
+        });
         $(this).text("keyboard_arrow_down");
     }
 });
