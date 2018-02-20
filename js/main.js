@@ -31,7 +31,7 @@ $(".spectrum .circle").click(function(){
     } 
 });
 
-$(".functions .collapse-button").click(function() {
+function checker() {
     if($(this).text() == "keyboard_arrow_down")
     {
         $(this).parent().parent().parent().children('.col-8').children('.subheading').css({
@@ -58,4 +58,8 @@ $(".functions .collapse-button").click(function() {
 
         $(this).text("keyboard_arrow_down");
     }
+}
+
+$(".functions .collapse-button").click(function() {
+    checker();
 });
