@@ -549,7 +549,7 @@ nav .nav-item .nav-link {
 .functions .functions-content .collapse-card .col-md-5 .preparing {
   color: #f44336;
   font-size: 18px;
-  align-self: center;
+  margin-top: 15px;
 }
 
 .functions .functions-content .collapse-card .images {
