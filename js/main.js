@@ -39,6 +39,11 @@ $(".functions .collapse-button").click(function() {
             "white-space": "unset",
             "overflow": "unset",
         });
+
+        $(this).parent().parent().parent().children('.col-8').children('.heading').css({
+            "color": "#f44336",
+        });
+
         $(this).text("keyboard_arrow_up");
     } else {
         $(this).parent().parent().parent().children('.col-8').children('.subheading').css({
@@ -46,6 +51,11 @@ $(".functions .collapse-button").click(function() {
             "white-space": "nowrap",
             "overflow": "hidden",
         });
+
+        $(this).parent().parent().parent().children('.col-8').children('.heading').css({
+            "color": "#455a64",
+        });
+
         $(this).text("keyboard_arrow_down");
     }
 });

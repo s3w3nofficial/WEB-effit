@@ -546,8 +546,10 @@ nav .nav-item .nav-link {
   overflow: hidden;
 }
 
-.functions .functions-content .collapse-card .preparing {
+.functions .functions-content .collapse-card .col-md-5 .preparing {
   color: #f44336;
+  font-size: 18px;
+  align-self: center;
 }
 
 .functions .functions-content .collapse-card .images {
@@ -556,10 +558,15 @@ nav .nav-item .nav-link {
 
 .functions .functions-content .collapse-card .images img {
   height: 100px;
+  width: 200px;
   margin-right: 20px;
   -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
   -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.functions .functions-content .collapse-card .card-body ul {
+  color: #455a64;
 }
 
 .functions .mdl-button--red {
@@ -1086,6 +1093,12 @@ footer .copy {
   }
   .functions-content {
     padding-top: 0px !important;
+  }
+  .collapse-card .col-md-5 {
+    display: none;
+  }
+  .card-body img {
+    margin-bottom: 35px;
   }
   .collapse-card-text {
     padding-left: 30px;
