@@ -48,6 +48,7 @@ nav a {
 
 nav .navbar-nav .mdl-button--red {
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 nav .active {
@@ -85,7 +86,7 @@ nav .nav-item .nav-link {
 
 .gdpr .text {
   font-size: 18px;
-  color: #90a4ae;
+  color: #455a64;
   margin-bottom: 80px;
 }
 
@@ -108,6 +109,7 @@ nav .nav-item .nav-link {
   width: 237px;
   font-size: 14px;
   height: 45px;
+  font-weight: bold;
 }
 
 .gdpr .subheading {
@@ -115,7 +117,7 @@ nav .nav-item .nav-link {
 }
 
 .gdpr .text1, .gdpr .text2, .gdpr .text3 {
-  color: #90a4ae;
+  color: #455a64;
 }
 
 .gdpr .text3 {
@@ -135,7 +137,7 @@ nav .nav-item .nav-link {
 }
 
 .gdpr .row p {
-  color: #90a4ae;
+  color: #455a64;
   font-size: 14px;
   padding-bottom: 40px;
 }
@@ -184,7 +186,7 @@ footer .usefull ul {
 }
 
 footer .usefull a {
-  color: #90a4ae;
+  color: #455a64;
   padding-right: 0px;
 }
 

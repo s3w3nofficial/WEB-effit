@@ -78,6 +78,7 @@ nav a {
 
 nav .navbar-nav .mdl-button--red {
   margin-bottom: 20px;
+  font-weight: bold;
 }
 
 nav .active {
@@ -121,6 +122,7 @@ nav .nav-item .nav-link {
   width: 300px;
   height: 55px;
   font-size: 20px;
+  font-weight: bold;
   margin-bottom: 55px;
 }
 
@@ -232,7 +234,7 @@ nav .nav-item .nav-link {
 
 .products .content-card ul li {
   text-align: left;
-  color: #90a4ae;
+  color: #455a64;
   list-style: none;
   line-height: 30px;
 }
@@ -251,7 +253,7 @@ nav .nav-item .nav-link {
 
 .products .content-card p {
   padding-top: 10px;
-  color: #90a4ae;
+  color: #455a64;
   line-height: 30px;
   text-align: center;
   font-size: 22px;
@@ -270,7 +272,7 @@ nav .nav-item .nav-link {
 
 .products .products-list .product-info {
   margin-top: 50px;
-  color: #90a4ae;
+  color: #455a64;
 }
 
 .products .products-list .product-info .effit {
@@ -306,6 +308,7 @@ nav .nav-item .nav-link {
   height: 65px;
   width: 250px;
   margin-bottom: 140px;
+  font-weight: bold;
 }
 
 .advantages {
@@ -323,7 +326,7 @@ nav .nav-item .nav-link {
   padding-top: 50px;
   padding-bottom: 200px;
   font-size: 22px;
-  color: #949493;
+  color: #c2c2c2;
   list-style: none;
   padding-left: 0px;
   line-height: 35px;
@@ -331,6 +334,7 @@ nav .nav-item .nav-link {
 
 .advantages .advantages-list .highlight {
   color: #fff;
+  font-weight: bold;
 }
 
 .advantages .advantages-list li {
@@ -484,12 +488,13 @@ nav .nav-item .nav-link {
   padding-left: 0;
   margin-left: 15px;
   padding-bottom: 30px;
-  color: #90a4ae;
+  color: #455a64;
 }
 
 .spectrum .row button {
   text-transform: uppercase;
   margin-bottom: 140px;
+  font-weight: bold;
 }
 
 .functions h1 {
@@ -530,7 +535,7 @@ nav .nav-item .nav-link {
 }
 
 .functions .functions-content .collapse-card .collapse-card-text {
-  color: #90a4ae;
+  color: #455a64;
   padding-left: 50px;
   padding-top: 5px;
 }
@@ -564,6 +569,7 @@ nav .nav-item .nav-link {
   margin: 0 auto;
   font-size: 22px;
   margin-top: 50px;
+  font-weight: bold;
   margin-bottom: 140px;
 }
 
@@ -595,6 +601,7 @@ nav .nav-item .nav-link {
   padding-left: 56px;
   padding-right: 56px;
   height: 40px;
+  font-weight: bold;
   display: block;
   margin: 0 auto;
 }
@@ -619,7 +626,7 @@ footer .usefull ul {
 }
 
 footer .usefull a {
-  color: #90a4ae;
+  color: #455a64;
   padding-right: 0px;
 }
 
@@ -650,7 +657,7 @@ footer .copy {
 }
 
 .bonus-services .bonus-services-list {
-  color: #90a4ae;
+  color: #455a64;
   padding-left: 15px;
   padding-bottom: 50px;
 }
@@ -660,6 +667,7 @@ footer .copy {
   color: #455a64;
   height: 45px;
   width: 237px;
+  font-weight: bold;
   margin-bottom: 50px;
 }
 
@@ -678,7 +686,7 @@ footer .copy {
 }
 
 .back {
-  color: #90a4ae;
+  color: #455a64;
   position: absolute;
   top: 50px;
   left: 100px;
@@ -782,7 +790,7 @@ footer .copy {
 }
 
 .contactus-modal .modal-footer .row li {
-  color: #90a4ae;
+  color: #455a64;
   list-style: none;
 }
 
@@ -893,7 +901,7 @@ footer .copy {
 }
 
 .buy-product-modal .container .price, .buy-product-modal .container .pref {
-  color: #90a4ae;
+  color: #455a64;
 }
 
 .buy-product-modal .container .card {
@@ -952,11 +960,11 @@ footer .copy {
 }
 
 .buy-product-modal .container .checkboxs label {
-  color: #90a4ae !important;
+  color: #455a64 !important;
 }
 
 .buy-product-modal .container p {
-  color: #90a4ae;
+  color: #455a64;
 }
 
 @media (max-width: 768px) {

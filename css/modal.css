@@ -40,7 +40,7 @@
 }
 
 .back {
-  color: #90a4ae;
+  color: #455a64;
   position: absolute;
   top: 50px;
   left: 100px;
@@ -144,7 +144,7 @@
 }
 
 .contactus-modal .modal-footer .row li {
-  color: #90a4ae;
+  color: #455a64;
   list-style: none;
 }
 
@@ -255,7 +255,7 @@
 }
 
 .buy-product-modal .container .price, .buy-product-modal .container .pref {
-  color: #90a4ae;
+  color: #455a64;
 }
 
 .buy-product-modal .container .card {
@@ -314,11 +314,11 @@
 }
 
 .buy-product-modal .container .checkboxs label {
-  color: #90a4ae !important;
+  color: #455a64 !important;
 }
 
 .buy-product-modal .container p {
-  color: #90a4ae;
+  color: #455a64;
 }
 
 @media (max-width: 768px) {
