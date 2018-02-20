@@ -50,21 +50,33 @@
                     overflow: hidden;
                 }
             }
-            
-            .preparing {
-                color: $red;
+
+            .col-md-5 {
+
+                align-self: center;
+
+                .preparing {
+                    color: $red;
+                    font-size: 18px;
+                    align-self: center;
+                }
             }
-            
+
             .images {
                 padding-left: 20px;
                 
                 img {
                     height: 100px;
+                    width: 200px;
                     margin-right: 20px;
                     -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.25);
                     -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.25);
                     box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.25);
                 }
+            }
+
+            .card-body ul {
+                color: $text-field-light;
             }
         }
     }
