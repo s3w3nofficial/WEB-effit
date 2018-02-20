@@ -249,5 +249,17 @@
         }
     }
 
+    .buy-product-modal {
+        width: unset;
+
+        .card {
+            margin-left: 0 !important;
+        }
+
+        .payment-block {
+            margin-bottom: 25px;
+        }
+    }
+
 }
 

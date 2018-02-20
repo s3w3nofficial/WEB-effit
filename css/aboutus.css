@@ -392,6 +392,15 @@ footer .copy {
   footer hr {
     margin-top: 0;
   }
+  .buy-product-modal {
+    width: unset;
+  }
+  .buy-product-modal .card {
+    margin-left: 0 !important;
+  }
+  .buy-product-modal .payment-block {
+    margin-bottom: 25px;
+  }
 }
 
 @media (min-width: 763px) and (max-width: 992px) {
