@@ -196,6 +196,21 @@ footer .copy {
 }
 
 @media (max-width: 768px) {
+  .contactus-modal .container form .form-group {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .contactus-modal .modal-footer img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .contactus-modal .modal-footer ul {
+    padding-top: 20px;
+    text-align: center;
+    padding-left: 0;
+  }
   nav {
     height: unset;
   }
