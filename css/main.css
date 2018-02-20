@@ -700,7 +700,7 @@ footer .copy {
 }
 
 .contactus-modal .container form {
-  color: #90a4ae;
+  color: #455a64;
 }
 
 .contactus-modal .container form .form-group {
@@ -791,8 +791,14 @@ footer .copy {
 }
 
 .buy-product-modal {
+  padding-bottom: 30px;
   width: max-content;
   background-color: #fff;
+}
+
+.buy-product-modal .container {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .buy-product-modal .container h1 {
@@ -810,7 +816,7 @@ footer .copy {
 }
 
 .buy-product-modal .container form {
-  color: #90a4ae;
+  color: #455a64;
 }
 
 .buy-product-modal .container form .form-group {
@@ -863,41 +869,94 @@ footer .copy {
   margin-left: 10px;
 }
 
-.buy-product-modal .container form button {
-  margin-top: 65px;
-  width: 100%;
-  height: 50px;
-  background-color: #009688;
-  color: white;
+.buy-product-modal .container .subheading {
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.buy-product-modal .container .selected-product {
+  display: flex;
+}
+
+.buy-product-modal .container .selected-product .selected-text {
   font-size: 22px;
-  margin-bottom: 100px;
 }
 
-.buy-product-modal .modal-footer {
-  background-color: #eee;
+.buy-product-modal .container .selected-product .change-wrapper {
+  margin: 0 auto;
 }
 
-.buy-product-modal .modal-footer .row {
-  width: 100%;
-  padding-top: 30px;
-  padding-bottom: 30px;
+.buy-product-modal .container .selected-product .change-wrapper .change {
+  float: right;
+  text-transform: uppercase;
+  color: #f44336;
 }
 
-.buy-product-modal .modal-footer .row .effit-logo {
-  padding-top: 30px;
-}
-
-.buy-product-modal .modal-footer .row .bp-logo {
-  padding-top: 15px;
-}
-
-.buy-product-modal .modal-footer .row li {
+.buy-product-modal .container .price, .buy-product-modal .container .pref {
   color: #90a4ae;
-  list-style: none;
 }
 
-.buy-product-modal .modal-footer .row li .fa {
-  margin-right: 15px;
+.buy-product-modal .container .card {
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.buy-product-modal .container .card .card-content {
+  padding: 15px;
+}
+
+.buy-product-modal .container .card .card-content .heading-red {
+  color: #f44336;
+}
+
+.buy-product-modal .container .card .card-content .text {
+  color: #455a64;
+}
+
+.buy-product-modal .container .card .card-content .text-gray {
+  color: #455a64;
+}
+
+.buy-product-modal .container .payment-block {
+  margin-top: 20px;
+  background-color: #ebeaea;
+  padding: 25px;
+  color: #455a64;
+}
+
+.buy-product-modal .container .payment-block .container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.buy-product-modal .container .payment-block .container .discount, .buy-product-modal .container .payment-block .container .red {
+  color: #f44336;
+}
+
+.buy-product-modal .container .payment-block .container .line-through {
+  text-decoration: line-through;
+}
+
+.buy-product-modal .container .payment-block .container button {
+  text-transform: initial;
+  width: 100%;
+  height: 60px;
+}
+
+.buy-product-modal .container .payment-block .container button .fa {
+  font-size: 22px;
+}
+
+.buy-product-modal .container .checkboxs label {
+  color: #90a4ae !important;
+}
+
+.buy-product-modal .container p {
+  color: #90a4ae;
 }
 
 @media (max-width: 768px) {
