@@ -543,10 +543,6 @@ nav .nav-item .nav-link {
   overflow: hidden;
 }
 
-.functions .functions-content .collapse-card .col-md-5 {
-  align-self: center;
-}
-
 .functions .functions-content .collapse-card .col-md-5 .preparing {
   color: #f44336;
   font-size: 18px;
