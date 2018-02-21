@@ -66,3 +66,7 @@ $(".functions .collapse-card").click(function() {
         checker($(this).children('.row').children('.col-1').children('.collapse-href').children('.collapse-button'))
     }, 200);
 });
+
+$(".functions .collapse-href").click(function( event ) {
+    event.preventDefault();
+});
