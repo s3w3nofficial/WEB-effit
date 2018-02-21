@@ -346,7 +346,7 @@ button {
     height: unset;
   }
   .hero {
-    height: 625px;
+    height: 700px;
     padding-top: 50px;
   }
   .hero h1 {
@@ -365,7 +365,7 @@ button {
     display: none;
   }
   .hero .button-scroll {
-    top: 590px;
+    top: 670px;
   }
   .products {
     padding: 40px 0;
@@ -453,7 +453,7 @@ button {
     margin-bottom: 35px;
   }
   .collapse-card-text {
-    padding-left: 30px;
+    padding-left: 20px !important;
   }
   .content-card {
     padding: 0;

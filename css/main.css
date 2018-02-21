@@ -550,6 +550,10 @@ nav .nav-item .nav-link {
   overflow: hidden;
 }
 
+.functions .functions-content .collapse-card .collapse-card-text .preparing {
+  color: #f44336;
+}
+
 .functions .functions-content .collapse-card .col-md-5 .preparing {
   color: #f44336;
   font-size: 18px;
@@ -999,7 +1003,7 @@ footer .copy {
     height: unset;
   }
   .hero {
-    height: 625px;
+    height: 700px;
     padding-top: 50px;
   }
   .hero h1 {
@@ -1018,7 +1022,7 @@ footer .copy {
     display: none;
   }
   .hero .button-scroll {
-    top: 590px;
+    top: 670px;
   }
   .products {
     padding: 40px 0;
@@ -1106,7 +1110,7 @@ footer .copy {
     margin-bottom: 35px;
   }
   .collapse-card-text {
-    padding-left: 30px;
+    padding-left: 20px !important;
   }
   .content-card {
     padding: 0;

@@ -49,6 +49,10 @@
                     white-space: nowrap;
                     overflow: hidden;
                 }
+
+                .preparing {
+                    color: $red;
+                }
             }
 
             .col-md-5 {
