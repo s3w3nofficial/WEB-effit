@@ -62,9 +62,7 @@ function checker(object) {
 }
 
 $(".functions .collapse-card").click(function() {
-    setTimeout(function() {
-        checker($(this).children('.row').children('.col-1').children('.collapse-href').children('.collapse-button'))
-    }, 200);
+    checker($(this).children('.row').children('.col-1').children('.collapse-href').children('.collapse-button'));
 });
 
 $(".functions .collapse-href").click(function( event ) {
