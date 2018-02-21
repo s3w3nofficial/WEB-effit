@@ -31,35 +31,36 @@ $(".spectrum .circle").click(function(){
     } 
 });
 
-function checker() {
-    if($(this).text() == "keyboard_arrow_down")
+function checker(object) {
+
+    if($(object).text() == "keyboard_arrow_down")
     {
-        $(this).parent().parent().parent().children('.col-8').children('.subheading').css({
+        $(object).parent().parent().parent().children('.col-8').children('.subheading').css({
             "text-overflow": "unset",
             "white-space": "unset",
             "overflow": "unset",
         });
 
-        $(this).parent().parent().parent().children('.col-8').children('.heading').css({
+        $(object).parent().parent().parent().children('.col-8').children('.heading').css({
             "color": "#f44336",
         });
 
-        $(this).text("keyboard_arrow_up");
+        $(object).text("keyboard_arrow_up");
     } else {
-        $(this).parent().parent().parent().children('.col-8').children('.subheading').css({
+        $(object).parent().parent().parent().children('.col-8').children('.subheading').css({
             "text-overflow": "ellipsis",
             "white-space": "nowrap",
             "overflow": "hidden",
         });
 
-        $(this).parent().parent().parent().children('.col-8').children('.heading').css({
+        $(object).parent().parent().parent().children('.col-8').children('.heading').css({
             "color": "#455a64",
         });
 
-        $(this).text("keyboard_arrow_down");
+        $(object).text("keyboard_arrow_down");
     }
 }
 
-$(".functions .collapse-button").click(function() {
-    checker();
+$(".functions .collapse-card").click(function() {
+    checker($(this).children('.row').children('.col-1').children('.collapse-href').children('.collapse-button'));
 });
