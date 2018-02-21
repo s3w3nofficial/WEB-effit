@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin-ext");
+button {
+  outline: none !important;
+}
+
 /* set fonts */
 /* set colors */
 .mdl-button--red {
