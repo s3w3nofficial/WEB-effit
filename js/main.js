@@ -1,3 +1,9 @@
+$(".functions-button").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".functions").offset().top-80
+    }, 2000);
+});
+
 $(".button-scroll").click(function() {
     $('html, body').animate({
         scrollTop: $(".spectrum").offset().top
@@ -10,19 +16,19 @@ $(".spectrum .circle").click(function(){
 
     if($(this).attr("class").indexOf("c1") >= 0)
     {
-        $(".main-circle .heading").text("Organizace");
+        $(".main-circle .heading").text("Komerční firmy");
         $(".main-circle .text").text("Lorem ipsum");
     } else if($(this).attr("class").indexOf("c2") >= 0)
     {
-        $(".main-circle .heading").text("Správa");
+        $(".main-circle .heading").text("Distribuce");
         $(".main-circle .text").text("Lorem ipsum");
     } else if($(this).attr("class").indexOf("c3") >= 0)
     {
-        $(".main-circle .heading").text("Úřady");
+        $(".main-circle .heading").text("Školství");
         $(".main-circle .text").text("Lorem ipsum");
     } else if($(this).attr("class").indexOf("c4") >= 0)
     {
-        $(".main-circle .heading").text("Školství");
+        $(".main-circle .heading").text("Úřady");
         $(".main-circle .text").text("Lorem ipsum");
     } else if($(this).attr("class").indexOf("c5") >= 0)
     {
