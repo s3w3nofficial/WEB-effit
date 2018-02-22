@@ -119,6 +119,11 @@ button {
   margin-left: 10px;
 }
 
+.contactus-modal .container form .conditions label a {
+  color: #455a64;
+  text-decoration: underline;
+}
+
 .contactus-modal .container form button {
   margin-top: 65px;
   width: 100%;
