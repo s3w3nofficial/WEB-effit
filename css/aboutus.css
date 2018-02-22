@@ -481,4 +481,10 @@ footer .copy {
     margin-top: 168px;
   }
 }
+
+@media (min-width: 993px) {
+  .collapse-card-text .preparing {
+    display: none;
+  }
+}
 /*# sourceMappingURL=aboutus.css.map */
