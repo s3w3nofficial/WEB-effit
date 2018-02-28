@@ -123,6 +123,10 @@
             li {
                 color: $text-field-light;
                 list-style: none;
+                
+                a {
+                    color: #455a64;
+                }
 
                 .fa {
                     margin-right: 15px;

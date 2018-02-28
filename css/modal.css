@@ -158,6 +158,10 @@ button {
   list-style: none;
 }
 
+.contactus-modal .modal-footer .row li a {
+  color: #455a64;
+}
+
 .contactus-modal .modal-footer .row li .fa {
   margin-right: 15px;
 }
