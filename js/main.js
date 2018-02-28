@@ -70,16 +70,36 @@ function checker(object) {
 
     finished = true;
 }
-
+/*
 $(".functions .collapse-card").click(function() {
     if ( finished == true ) { checker($(this).children('.row').children('.col-1').children('.collapse-href').children('.collapse-button'));}
 });
-
+*/
 $(".functions .collapse-href").click(function( event ) {
     event.preventDefault();
 });
 
+$('.collapse').on('shown.bs.collapse', function (e) {
+    $(this).parent().children('.row').children('.col-1').children('.collapse-href').children('.collapse-button').text("keyboard_arrow_up")
+    $(this).parent().children('.row').children('.collapse-card-text').children('.subheading').css({
+        "text-overflow": "unset",
+        "white-space": "unset",
+        "overflow": "unset",
+    });
+})
+
+$('.collapse').on('hide.bs.collapse', function (e) {
+    $(this).parent().children('.row').children('.col-1').children('.collapse-href').children('.collapse-button').text("keyboard_arrow_down")
+    $(this).parent().children('.row').children('.collapse-card-text').children('.subheading').css({
+        "text-overflow": "ellipsis",
+        "white-space": "nowrap",
+        "overflow": "hidden",
+    });
+})
+
 $(document).on('click', '[data-toggle="lightbox"]', function(event) {
     event.preventDefault();
     $(this).ekkoLightbox();
+    console.log(event)
+    event.parent();
 });
