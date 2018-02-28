@@ -1,3 +1,5 @@
+var finished = true;
+
 $(".functions-button").click(function() {
     $('html, body').animate({
         scrollTop: $(".functions").offset().top-80
@@ -38,7 +40,7 @@ $(".spectrum .circle").click(function(){
 });
 
 function checker(object) {
-
+    finished = false;
     if($(object).text() == "keyboard_arrow_down")
     {
         $(object).parent().parent().parent().children('.col-8').children('.subheading').css({
@@ -65,14 +67,19 @@ function checker(object) {
 
         $(object).text("keyboard_arrow_down");
     }
+
+    finished = true;
 }
 
 $(".functions .collapse-card").click(function() {
-    $.when(checker()).done(function(){
-        checker($(this).children('.row').children('.col-1').children('.collapse-href').children('.collapse-button'));
-    });
+    if ( finished == true ) { checker($(this).children('.row').children('.col-1').children('.collapse-href').children('.collapse-button'));}
 });
 
 $(".functions .collapse-href").click(function( event ) {
     event.preventDefault();
+});
+
+$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
 });
