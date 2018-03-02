@@ -82,6 +82,7 @@ Telefon: ` + $('#contactform input[name="tel"').val() + `
 		replyto: $('#contactform input[name="email"').val(),
 	}, function (data) {
 		console.log('email sent');
+		console.log(msg);
 	});
 })
 
