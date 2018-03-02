@@ -84,7 +84,7 @@ Telefon: ` + $('#contactform input[name="tel"').val() + `
 		console.log('email sent');
 		console.log(msg);
 	});
-})
+});
 
 $(document).on('click', '[data-toggle="lightbox"]', function(event) {
     event.preventDefault();
