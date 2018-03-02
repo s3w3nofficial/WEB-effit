@@ -36,7 +36,7 @@ $(".spectrum .circle").click(function(){
     {
         $(".main-circle .heading").text("Zdravotnictví");
         $(".main-circle .text").text("Lorem ipsum");
-    } 
+    }
 });
 
 $(".functions .collapse-href").click(function( event ) {
@@ -59,6 +59,28 @@ $('.collapse').on('hide.bs.collapse', function (e) {
         "white-space": "nowrap",
         "overflow": "hidden",
     });
+})
+
+$('#sendmessagebutton').on('click', function () {
+	var msg = `Vážený správce,
+
+tímto Vás informujeme, že jste byl kontaktován pomocí webu EFFIT. Detaily o tomto kontaktu naleznete níže. Na tento e-mail můžete odpovědět stisknutím tlačítka Odpovědět ve svém e-mailovém klientovi.
+
+S pozdravem,
+Váš přátelský zasílač hlášení EFFIT
+
+---- DATA ----
+Jméno: ` + $('#contactform input[name="name"').val() + `
+E-mail: ` + $('#contactform input[name="email"]').val()  + `
+Telefon: ` + $('#contactform input[name="tel"').val() + `
+
+	` + $('#contactform input[name="message"').val();
+	$.post('/mailer.php', {
+		from: "noreply@webappky.cz",
+		to: "test@webappky.cz",
+		message: msg,
+		replyto: $('#contactform input[name="email"').val(),
+	})
 })
 
 $(document).on('click', '[data-toggle="lightbox"]', function(event) {
