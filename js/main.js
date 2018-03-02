@@ -74,7 +74,7 @@ Jméno: ` + $('#contactform input[name="name"').val() + `
 E-mail: ` + $('#contactform input[name="email"]').val()  + `
 Telefon: ` + $('#contactform input[name="tel"').val() + `
 
-	` + $('#contactform input[name="message"').val();
+` + $('#contactform input[name="message"').val();
 	$.post('/mailer.php', {
 		from: "noreply@webappky.cz",
 		to: "test@webappky.cz",
