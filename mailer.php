@@ -1,5 +1,4 @@
 <?php
-header("Access-Control-Allow-Origin: *");
 if ($_POST) {
 	// Firstly fetch all required infos from $_POST
 	$to = $_POST['to'];
