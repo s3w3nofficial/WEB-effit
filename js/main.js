@@ -80,7 +80,9 @@ Telefon: ` + $('#contactform input[name="tel"').val() + `
 		to: "test@webappky.cz",
 		message: msg,
 		replyto: $('#contactform input[name="email"').val(),
-	})
+	}, function (data) {
+		console.log('email sent');
+	});
 })
 
 $(document).on('click', '[data-toggle="lightbox"]', function(event) {
