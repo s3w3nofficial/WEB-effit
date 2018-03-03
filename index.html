@@ -720,7 +720,7 @@
                             <div class="col-md-6">
                                 <img src="assets/img/stredni_firma.png">
 
-                                <form action="">
+                                <form id="buyform" action="">
                                     <label for="name">Název Firmy</label>
                                     <input type="text" name="name">
 
@@ -778,7 +778,7 @@
                                         <p class="discount"><i class="fa fa-check-circle"></i> Sleva 10%</p>
 
                                         <p class="price">Celková částka <span class="red">16 649 / rok</span> <span class="line-through">18 499 Kč / rok</span></p>
-                                        <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--red">
+                                        <button type="button" id="buybutton" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--red">
                                             <i class="fa fa-shopping-cart"></i> Zakoupit Objednávku
                                         </button>
                                     </div>
@@ -816,7 +816,7 @@
 
                 <div class="contactus-modal">
                     <div class="container">
-                        <h1>Ozvěte se nám</h1>
+                        <h1 id="contactformhead">Ozvěte se nám</h1>
 
                         <form id="contactform">
                             <div class="form-group">
@@ -831,6 +831,7 @@
 
                                 <label for="message">Vaše zpráva</label>
                                 <input type="text" name="message">
+																<input type="hidden" name="systemmessage" value="Vzkaz z kontaktního formuláře">
 
                                 <div class="conditions">
                                     <input type="checkbox" name="conditions">

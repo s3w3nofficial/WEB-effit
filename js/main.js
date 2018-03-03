@@ -73,7 +73,7 @@ Váš přátelský zasílač hlášení EFFIT
 Jméno: ` + $('#contactform input[name="name"').val() + `
 E-mail: ` + $('#contactform input[name="email"]').val()  + `
 Telefon: ` + $('#contactform input[name="tel"').val() + `
-
+Poznámka systému: ` + $('#contactform input[name="systemmessage"').val() + `
 ` + $('#contactform input[name="message"').val();
 	$.post('/mailer.php', {
 		from: "noreply@webappky.cz",
