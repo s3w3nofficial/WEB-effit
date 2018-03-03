@@ -99,7 +99,7 @@ Poznámka systému: ` + $('#contactform input[name="systemmessage"').val() + `
 });
 
 $('#buybutton').on('click', function () {
-	var firm = $('#buyform input[name="name"').val() + ", sídlící na " + $('#buyform input[name="company_address"').val() + ', IČO ' + $('#buyform input[name="ico"').val();
+	$('#contactform input[name="company"').val($('#buyform input[name="name"').val() + ", sídlící na " + $('#buyform input[name="company_address"').val() + ', IČO ' + $('#buyform input[name="ico"').val());
 	$('#contactform input[name="name"').val($('#buyform input[name="contact_person"]').val());
 	$('#contactform input[name="tel"]').val($('#buyform input[name="tel"]').val());
 	$('#contactform input[name="email"]').val($('#buyform input[name="email"]').val());
