@@ -714,13 +714,13 @@
 
                 <div class="buy-product-modal">
                     <div class="container">
+											<form id="buyform" action="">
                         <h1>Průvodce Objednávkou</h1>
 
                         <div class="row">
                             <div class="col-md-6">
                                 <img src="assets/img/stredni_firma.png">
 
-                                <form id="buyform" action="">
                                     <label for="name">Název Firmy</label>
                                     <input type="text" name="name">
 
@@ -738,13 +738,16 @@
 
                                     <label for="email">Emailová adresa</label>
                                     <input type="text" name="email">
-                                </form>
                             </div>
                             <div class="col-md-6">
                                 <span class="subheading">Objednávka služeb:</span>
                                 <hr>
                                 <div class="selected-product">
-                                    <span class="selected-text">Effit pro střední firmu</span><div class="change-wrapper"><button class="mdl-button mdl-js-button change">změnit</button></div>
+                                    <select name="selectedversion">
+                                    	<option value="mala_firma">EFFIT GDPR Pro malou firmu</option>
+																			<option value="stredni_firma">EFFIT GDPR Pro střední firmu</option>
+																			<option value="velka_firma">EFFIT GDPR Pro velkou firmu</option>
+                                    </select>
                                 </div>
                                 <span class="price">18 499 Kč / rok</span>
                                 <div class="card">
@@ -796,6 +799,7 @@
                         <p>
                             Na uvedené údaje Vás budeme kontaktovat v rámci objednávky a dohodnutí dalších kroků.
                         </p>
+												</form>
                     </div>
                 </div>
 
