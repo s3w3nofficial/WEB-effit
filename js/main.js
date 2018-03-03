@@ -1,3 +1,7 @@
+function setupBuyForm(version) {
+	$('#buyform select[name="selectedversion"]').val(version);
+}
+
 var finished = true;
 
 $(".functions-button").click(function() {
@@ -59,7 +63,11 @@ $('.collapse').on('hide.bs.collapse', function (e) {
         "white-space": "nowrap",
         "overflow": "hidden",
     });
-})
+});
+
+$('#buyform select[name="selectedversion"]').change(function() {
+    $('#buyformimg')[0].src = '/assets/img/' + $('#buyform select[name="selectedversion"]').val() + '.png';
+});
 
 $('#sendmessagebutton').on('click', function () {
 	var msg = `Vážený správce,
