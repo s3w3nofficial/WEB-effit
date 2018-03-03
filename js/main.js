@@ -84,6 +84,7 @@ E-mail: ` + $('#contactform input[name="email"]').val()  + `
 Telefon: ` + $('#contactform input[name="tel"').val() + `
 Firma: ` + $('#contactform input[name="company"').val() + `
 Poznámka systému: ` + $('#contactform input[name="systemmessage"').val() + `
+
 ` + $('#contactform input[name="message"').val();
 	$.post('/mailer.php', {
 		from: "noreply@webappky.cz",
