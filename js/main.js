@@ -92,6 +92,8 @@ Poznámka systému: ` + $('#contactform input[name="systemmessage"').val() + `
 		replyto: $('#contactform input[name="email"').val(),
 	}, function (data) {
 		console.log('email sent');
+		$('contactus').modal('hide');
+		alert('Mail byl odeslán');
 		console.log(msg);
 	});
 });
