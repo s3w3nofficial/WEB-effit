@@ -89,6 +89,7 @@ Poznámka systému: ` + $('#contactform input[name="systemmessage"').val() + `
 		from: "noreply@webappky.cz",
 		to: "test@webappky.cz",
 		message: msg,
+		subject: "[EFFIT] Kontakt od " + $('#contactform input[name="name"').val(),
 		replyto: $('#contactform input[name="email"').val(),
 	}, function (data) {
 		console.log('email sent');
