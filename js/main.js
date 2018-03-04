@@ -1,11 +1,11 @@
-/* Intended for průvodce objednávkou
+/* Intended for order wizzard
 function setupBuyForm(version) {
 	$('#buyform select[name="selectedversion"]').val(version);
 	$('#buyformimg')[0].src = '/assets/img/' + $('#buyform select[name="selectedversion"]').val() + '.png';
 }
 */
 
-function setupBuyForm(version) {
+function setupBuyForm(version) { // Delete when unsuspending wizzard
 	$('#contactform select[name="selectedversion"]').val(version);
 	if (version != "just_contact") {
 		$('#contactform input[name="systemmessage"').val('Objednávka');
@@ -83,7 +83,7 @@ $('#buyform select[name="selectedversion"]').change(function() {
 
 $('#contactform select[name="selectedversion"]').change(function() {
     setupBuyForm($('#contactform select[name="selectedversion"]').val());
-});
+}); // Delete when unsuspending wizzard
 
 $('#sendmessagebutton').on('click', function () {
 	var objednavanaVarianta = "";
