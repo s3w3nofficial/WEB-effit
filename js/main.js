@@ -5,6 +5,10 @@ function setupBuyForm(version) {
 }
 */
 
+function setupBuyForm(version) {
+	$('#contactform select[name="selectedversion"]').val(version);
+}
+
 var finished = true;
 
 $(".functions-button").click(function() {
