@@ -1,7 +1,9 @@
+/* Intended for průvodce objednávkou
 function setupBuyForm(version) {
 	$('#buyform select[name="selectedversion"]').val(version);
 	$('#buyformimg')[0].src = '/assets/img/' + $('#buyform select[name="selectedversion"]').val() + '.png';
 }
+*/
 
 var finished = true;
 
