@@ -86,47 +86,52 @@ $('#contactform select[name="selectedversion"]').change(function() {
 }); // Delete when unsuspending wizzard
 
 $('#sendmessagebutton').on('click', function () {
-	var objednavanaVarianta = "";
-	var objednavanaVariantaRaw = $('#contactform select[name="selectedversion"]').val();
-	switch (objednavanaVariantaRaw) {
-		case "mala_firma":
-			objednavanaVarianta = "EFFIT GDPR Pro malou firmu";
-			break;
-		case "stredni_firma":
-			objednavanaVarianta = "EFFIT GDPR Pro střední firmu";
-			break;
-		case "velka_firma":
-			objednavanaVarianta = "EFFIT GDPR Pro velkou firmu";
-			break;
+	if ($('#contactform input[name="conditions"]')[0].checked) {
+		var objednavanaVarianta = "";
+		var objednavanaVariantaRaw = $('#contactform select[name="selectedversion"]').val();
+		switch (objednavanaVariantaRaw) {
+			case "mala_firma":
+				objednavanaVarianta = "EFFIT GDPR Pro malou firmu";
+				break;
+			case "stredni_firma":
+				objednavanaVarianta = "EFFIT GDPR Pro střední firmu";
+				break;
+			case "velka_firma":
+				objednavanaVarianta = "EFFIT GDPR Pro velkou firmu";
+				break;
+		}
+		var msg = `Vážený správce,
+
+	tímto Vás informujeme, že jste byl kontaktován pomocí webu EFFIT. Detaily o tomto kontaktu naleznete níže. Na tento e-mail můžete odpovědět stisknutím tlačítka Odpovědět ve svém e-mailovém klientovi.
+
+	S pozdravem,
+	Váš přátelský zasílač hlášení EFFIT
+
+	---- DATA ----
+	Jméno: ` + $('#contactform input[name="name"').val() + `
+	E-mail: ` + $('#contactform input[name="email"]').val()  + `
+	Telefon: ` + $('#contactform input[name="tel"').val() + `
+	Firma: ` + $('#contactform input[name="company"').val() + `
+	Poznámka systému: ` + $('#contactform input[name="systemmessage"').val() + `
+	Objednávaná varianta: ` + objednavanaVarianta + `
+
+	` + $('#contactform input[name="message"').val();
+		$.post('/mailer.php', {
+			from: "noreply@webappky.cz",
+			to: "test@webappky.cz",
+			message: msg,
+			subject: "[EFFIT] Kontakt od " + $('#contactform input[name="name"').val(),
+			replyto: $('#contactform input[name="email"').val(),
+		}, function (data) {
+			console.log('email sent');
+			$('contactus').modal('hide');
+			alert('Mail byl odeslán');
+			console.log(msg);
+		});
+	} else {
+		alert('Musíte souhlasit s podmínkami');
 	}
-	var msg = `Vážený správce,
 
-tímto Vás informujeme, že jste byl kontaktován pomocí webu EFFIT. Detaily o tomto kontaktu naleznete níže. Na tento e-mail můžete odpovědět stisknutím tlačítka Odpovědět ve svém e-mailovém klientovi.
-
-S pozdravem,
-Váš přátelský zasílač hlášení EFFIT
-
----- DATA ----
-Jméno: ` + $('#contactform input[name="name"').val() + `
-E-mail: ` + $('#contactform input[name="email"]').val()  + `
-Telefon: ` + $('#contactform input[name="tel"').val() + `
-Firma: ` + $('#contactform input[name="company"').val() + `
-Poznámka systému: ` + $('#contactform input[name="systemmessage"').val() + `
-Objednávaná varianta: ` + objednavanaVarianta + `
-
-` + $('#contactform input[name="message"').val();
-	$.post('/mailer.php', {
-		from: "noreply@webappky.cz",
-		to: "test@webappky.cz",
-		message: msg,
-		subject: "[EFFIT] Kontakt od " + $('#contactform input[name="name"').val(),
-		replyto: $('#contactform input[name="email"').val(),
-	}, function (data) {
-		console.log('email sent');
-		$('contactus').modal('hide');
-		alert('Mail byl odeslán');
-		console.log(msg);
-	});
 });
 
 $('#buybutton').on('click', function () {
