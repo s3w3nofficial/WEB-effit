@@ -7,6 +7,11 @@ function setupBuyForm(version) {
 
 function setupBuyForm(version) {
 	$('#contactform select[name="selectedversion"]').val(version);
+	if (version != "just_contact") {
+		$('#contactform input[name="systemmessage"').val('Objednávka');
+	} else {
+		$('#contactform input[name="systemmessage"').val('Vzkaz z kontaktního formuláře');
+	}
 }
 
 var finished = true;
