@@ -125,9 +125,7 @@ Objednávaná varianta: ` + objednavanaVarianta + `
 		}, function (data) {
 			console.log('email sent');
 			$('contactus').modal('hide');
-			setTimeout(function () {
-				alert('Mail byl odeslán');
-			}, 100)
+			alert('Mail byl odeslán');
 			console.log(msg);
 		});
 	} else {
