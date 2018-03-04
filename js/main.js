@@ -77,6 +77,19 @@ $('#buyform select[name="selectedversion"]').change(function() {
 });
 
 $('#sendmessagebutton').on('click', function () {
+	var objednavanaVarianta = "";
+	var objednavanaVariantaRaw = $('#contactform select[name="selectedversion"]').val();
+	switch (objednavanaVariantaRaw) {
+		case "mala_firma":
+			objednavanaVarianta = "EFFIT GDPR Pro malou firmu";
+			break;
+		case "stredni_firma":
+			objednavanaVarianta = "EFFIT GDPR Pro střední firmu";
+			break;
+		case "velka_firma":
+			objednavanaVarianta = "EFFIT GDPR Pro velkou firmu";
+			break;
+	}
 	var msg = `Vážený správce,
 
 tímto Vás informujeme, že jste byl kontaktován pomocí webu EFFIT. Detaily o tomto kontaktu naleznete níže. Na tento e-mail můžete odpovědět stisknutím tlačítka Odpovědět ve svém e-mailovém klientovi.
@@ -90,6 +103,7 @@ E-mail: ` + $('#contactform input[name="email"]').val()  + `
 Telefon: ` + $('#contactform input[name="tel"').val() + `
 Firma: ` + $('#contactform input[name="company"').val() + `
 Poznámka systému: ` + $('#contactform input[name="systemmessage"').val() + `
+Objednávaná varianta: ` + objednavanaVarianta + `
 
 ` + $('#contactform input[name="message"').val();
 	$.post('/mailer.php', {
