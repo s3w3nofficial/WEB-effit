@@ -102,20 +102,20 @@ $('#sendmessagebutton').on('click', function () {
 		}
 		var msg = `Vážený správce,
 
-	tímto Vás informujeme, že jste byl kontaktován pomocí webu EFFIT. Detaily o tomto kontaktu naleznete níže. Na tento e-mail můžete odpovědět stisknutím tlačítka Odpovědět ve svém e-mailovém klientovi.
+tímto Vás informujeme, že jste byl kontaktován pomocí webu EFFIT. Detaily o tomto kontaktu naleznete níže. Na tento e-mail můžete odpovědět stisknutím tlačítka Odpovědět ve svém e-mailovém klientovi.
 
-	S pozdravem,
-	Váš přátelský zasílač hlášení EFFIT
+S pozdravem,
+Váš přátelský zasílač hlášení EFFIT
 
-	---- DATA ----
-	Jméno: ` + $('#contactform input[name="name"').val() + `
-	E-mail: ` + $('#contactform input[name="email"]').val()  + `
-	Telefon: ` + $('#contactform input[name="tel"').val() + `
-	Firma: ` + $('#contactform input[name="company"').val() + `
-	Poznámka systému: ` + $('#contactform input[name="systemmessage"').val() + `
-	Objednávaná varianta: ` + objednavanaVarianta + `
+---- DATA ----
+Jméno: ` + $('#contactform input[name="name"').val() + `
+E-mail: ` + $('#contactform input[name="email"]').val()  + `
+Telefon: ` + $('#contactform input[name="tel"').val() + `
+Firma: ` + $('#contactform input[name="company"').val() + `
+Poznámka systému: ` + $('#contactform input[name="systemmessage"').val() + `
+Objednávaná varianta: ` + objednavanaVarianta + `
 
-	` + $('#contactform input[name="message"').val();
+` + $('#contactform input[name="message"').val();
 		$.post('/mailer.php', {
 			from: "noreply@webappky.cz",
 			to: "test@webappky.cz",
