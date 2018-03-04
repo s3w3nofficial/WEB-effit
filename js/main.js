@@ -87,7 +87,7 @@ $('#contactform select[name="selectedversion"]').change(function() {
 
 $('#contactform').on('submit', function (event) {
 	event.preventDefault();
-	var objednavanaVarianta = "";
+	var objednavanaVarianta = "Žádná";
 	var objednavanaVariantaRaw = $('#contactform select[name="selectedversion"]').val();
 	switch (objednavanaVariantaRaw) {
 		case "mala_firma":
