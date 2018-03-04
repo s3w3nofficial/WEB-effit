@@ -44,7 +44,7 @@
                 font-size: 14px;
             }
 
-            input[type="text"] {
+            input[type="text"], input[type="email"], input[type="tel"] {
                 margin-bottom: 30px;
                 width: 100%;
                 -webkit-box-sizing: border-box;
