@@ -735,7 +735,7 @@ footer .copy {
   font-size: 14px;
 }
 
-.contactus-modal .container form input[type="text"], .contactus-modal .container form input[type="email"], .contactus-modal .container form input[type="tel"] {
+.contactus-modal .container form input[type="text"], .contactus-modal .container form input[type="tel"], .contactus-modal .container form input[type="email"] {
   margin-bottom: 30px;
   width: 100%;
   -webkit-box-sizing: border-box;
@@ -756,7 +756,7 @@ footer .copy {
   background-image: none;
 }
 
-.contactus-modal .container form input[type="text"]:focus {
+.contactus-modal .container form input[type="text"]:focus, .contactus-modal .container form input[type="email"]:focus, .contactus-modal .container form input[type="tel"]:focus {
   color: #009688;
   border-color: #009688;
   border-width: 2px;
