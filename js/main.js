@@ -85,7 +85,8 @@ $('#contactform select[name="selectedversion"]').change(function() {
     setupBuyForm($('#contactform select[name="selectedversion"]').val());
 }); // Delete when unsuspending wizzard
 
-$('#sendmessagebutton').on('click', function () {
+$('#contactform').on('submit', function (event) {
+	event.preventDefault();
 	if ($('#contactform input[name="conditions"]')[0].checked) {
 		var objednavanaVarianta = "";
 		var objednavanaVariantaRaw = $('#contactform select[name="selectedversion"]').val();
