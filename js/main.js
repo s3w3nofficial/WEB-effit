@@ -81,6 +81,10 @@ $('#buyform select[name="selectedversion"]').change(function() {
     $('#buyformimg')[0].src = '/assets/img/' + $('#buyform select[name="selectedversion"]').val() + '.png';
 });
 
+$('#contactform select[name="selectedversion"]').change(function() {
+    setupBuyForm($('#contactform select[name="selectedversion"]').val());
+});
+
 $('#sendmessagebutton').on('click', function () {
 	var objednavanaVarianta = "";
 	var objednavanaVariantaRaw = $('#contactform select[name="selectedversion"]').val();
