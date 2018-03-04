@@ -125,7 +125,9 @@ $('#sendmessagebutton').on('click', function () {
 		}, function (data) {
 			console.log('email sent');
 			$('contactus').modal('hide');
-			alert('Mail byl odeslán');
+			setTimeout(function () {
+				alert('Mail byl odeslán');
+			}, 100)
 			console.log(msg);
 		});
 	} else {
