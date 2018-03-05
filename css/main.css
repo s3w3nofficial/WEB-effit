@@ -735,7 +735,7 @@ footer .copy {
   font-size: 14px;
 }
 
-.contactus-modal .container form input[type="text"], .contactus-modal .container form input[type="email"] {
+.contactus-modal .container form input[type="text"], .contactus-modal .container form input[type="email"], .contactus-modal .container form input[type="tel"] {
   margin-bottom: 30px !important;
   width: 100% !important;
   -webkit-box-sizing: border-box !important;
