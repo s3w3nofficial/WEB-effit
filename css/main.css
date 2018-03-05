@@ -735,7 +735,7 @@ footer .copy {
   font-size: 14px;
 }
 
-.contactus-modal .container form input[type="text"] {
+.contactus-modal .container form input[type="text"], .contactus-modal .container form input[type="email"] {
   margin-bottom: 30px;
   width: 100%;
   -webkit-box-sizing: border-box;
@@ -990,6 +990,10 @@ footer .copy {
 
 .buy-product-modal .container p {
   color: #455a64;
+}
+
+.modal {
+  overflow-y: scroll;
 }
 
 @media (max-width: 768px) {
