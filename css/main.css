@@ -63,6 +63,10 @@ h1, .heading, .list-heading, .effit, .price-text, .with-dph {
   color: #f44336;
 }
 
+.ekko-lightbox-nav-overlay a span {
+  color: #455a64 !important;
+}
+
 nav {
   height: 70px;
   padding-bottom: 0px !important;
